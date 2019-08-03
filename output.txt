@@ -1,0 +1,868 @@
+//- Testing FCFS.
+Averages turnaround time: 19.789473684210527
+Average wait time: 14.68421052631579
+Average response time: 14.68421052631579
+Throughput: 0.19 processes completed per quanta.
+
+[*][*][*][P28][P28][P28][P28][P28][P13][P11][P11][P11][P11][P11][P11][P11][P11][P11][P26][P26][P26][P26][P26][P1][P1][P1][P1][P1][P1][P1][P1][P1][P16][P16][P16][P12][P12][P12][P21][P21][P21][P21][P21][P10][P19][P19][P19][P19][P19][P30][P30][P30][P30][P30][P30][P30][P30][P30][P15][P15][P15][P5][P5][P5][P20][P20][P20][P20][P20][P20][P20][P3][P18][P18][P18][P18][P18][P14][P14][P14][P14][P14][P25][P25][P25][P25][P25][P25][P25][P25][P25][P23][P23][P23][P23][P23][P23][P23][P23][P23]
+[Process: P28, Arrival time:   3, Run time:   5, Priority: 3, End time:   8, Time started:   3, Turnaround time:   5, Wait time:   0, Response time:   0]
+[Process: P13, Arrival time:   4, Run time:   1, Priority: 2, End time:   9, Time started:   8, Turnaround time:   5, Wait time:   4, Response time:   4]
+[Process: P11, Arrival time:   9, Run time:   9, Priority: 2, End time:  18, Time started:   9, Turnaround time:   9, Wait time:   0, Response time:   0]
+[Process: P26, Arrival time:   9, Run time:   5, Priority: 3, End time:  23, Time started:  18, Turnaround time:  14, Wait time:   9, Response time:   9]
+[Process:  P1, Arrival time:  15, Run time:   9, Priority: 2, End time:  32, Time started:  23, Turnaround time:  17, Wait time:   8, Response time:   8]
+[Process: P16, Arrival time:  15, Run time:   3, Priority: 3, End time:  35, Time started:  32, Turnaround time:  20, Wait time:  17, Response time:  17]
+[Process: P12, Arrival time:  21, Run time:   3, Priority: 2, End time:  38, Time started:  35, Turnaround time:  17, Wait time:  14, Response time:  14]
+[Process: P21, Arrival time:  26, Run time:   5, Priority: 2, End time:  43, Time started:  38, Turnaround time:  17, Wait time:  12, Response time:  12]
+[Process: P10, Arrival time:  27, Run time:   1, Priority: 2, End time:  44, Time started:  43, Turnaround time:  17, Wait time:  16, Response time:  16]
+[Process: P19, Arrival time:  32, Run time:   5, Priority: 2, End time:  49, Time started:  44, Turnaround time:  17, Wait time:  12, Response time:  12]
+[Process: P30, Arrival time:  38, Run time:   9, Priority: 1, End time:  58, Time started:  49, Turnaround time:  20, Wait time:  11, Response time:  11]
+[Process: P15, Arrival time:  39, Run time:   3, Priority: 1, End time:  61, Time started:  58, Turnaround time:  22, Wait time:  19, Response time:  19]
+[Process:  P5, Arrival time:  44, Run time:   3, Priority: 1, End time:  64, Time started:  61, Turnaround time:  20, Wait time:  17, Response time:  17]
+[Process: P20, Arrival time:  44, Run time:   7, Priority: 1, End time:  71, Time started:  64, Turnaround time:  27, Wait time:  20, Response time:  20]
+[Process:  P3, Arrival time:  50, Run time:   1, Priority: 1, End time:  72, Time started:  71, Turnaround time:  22, Wait time:  21, Response time:  21]
+[Process: P18, Arrival time:  50, Run time:   5, Priority: 1, End time:  77, Time started:  72, Turnaround time:  27, Wait time:  22, Response time:  22]
+[Process: P14, Arrival time:  56, Run time:   5, Priority: 4, End time:  82, Time started:  77, Turnaround time:  26, Wait time:  21, Response time:  21]
+[Process: P25, Arrival time:  56, Run time:   9, Priority: 1, End time:  91, Time started:  82, Turnaround time:  35, Wait time:  26, Response time:  26]
+[Process: P23, Arrival time:  61, Run time:   9, Priority: 1, End time: 100, Time started:  91, Turnaround time:  39, Wait time:  30, Response time:  30]
+
+
+Averages turnaround time: 25.6875
+Average wait time: 19.6875
+Average response time: 19.6875
+Throughput: 0.1568627450980392 processes completed per quanta.
+
+[*][*][*][*][P4][P4][P4][P4][*][*][P11][P11][P11][P11][P11][P11][P11][P11][P26][P26][P26][P26][P24][P24][P9][P9][P9][P9][P9][P9][P9][P9][P1][P1][P1][P1][P1][P1][P1][P29][P29][P29][P29][P29][P29][P10][P10][P10][P10][P10][P10][P10][P10][P10][P10][P8][P8][P8][P8][P8][P8][P8][P8][P19][P19][P19][P19][P15][P15][P30][P30][P30][P30][P30][P30][P30][P30][P13][P13][P28][P28][P28][P28][P28][P28][P18][P18][P18][P18][P18][P18][P18][P3][P3][P3][P3][P3][P3][P3][P3][P3][P3]
+[Process:  P4, Arrival time:   4, Run time:   4, Priority: 2, End time:   8, Time started:   4, Turnaround time:   4, Wait time:   0, Response time:   0]
+[Process: P11, Arrival time:  10, Run time:   8, Priority: 1, End time:  18, Time started:  10, Turnaround time:   8, Wait time:   0, Response time:   0]
+[Process: P26, Arrival time:  10, Run time:   4, Priority: 2, End time:  22, Time started:  18, Turnaround time:  12, Wait time:   8, Response time:   8]
+[Process: P24, Arrival time:  15, Run time:   2, Priority: 2, End time:  24, Time started:  22, Turnaround time:   9, Wait time:   7, Response time:   7]
+[Process:  P9, Arrival time:  16, Run time:   8, Priority: 1, End time:  32, Time started:  24, Turnaround time:  16, Wait time:   8, Response time:   8]
+[Process:  P1, Arrival time:  21, Run time:   7, Priority: 2, End time:  39, Time started:  32, Turnaround time:  18, Wait time:  11, Response time:  11]
+[Process: P29, Arrival time:  27, Run time:   6, Priority: 1, End time:  45, Time started:  39, Turnaround time:  18, Wait time:  12, Response time:  12]
+[Process: P10, Arrival time:  28, Run time:  10, Priority: 1, End time:  55, Time started:  45, Turnaround time:  27, Wait time:  17, Response time:  17]
+[Process:  P8, Arrival time:  33, Run time:   8, Priority: 1, End time:  63, Time started:  55, Turnaround time:  30, Wait time:  22, Response time:  22]
+[Process: P19, Arrival time:  33, Run time:   4, Priority: 1, End time:  67, Time started:  63, Turnaround time:  34, Wait time:  30, Response time:  30]
+[Process: P15, Arrival time:  39, Run time:   2, Priority: 4, End time:  69, Time started:  67, Turnaround time:  30, Wait time:  28, Response time:  28]
+[Process: P30, Arrival time:  39, Run time:   8, Priority: 4, End time:  77, Time started:  69, Turnaround time:  38, Wait time:  30, Response time:  30]
+[Process: P13, Arrival time:  45, Run time:   2, Priority: 4, End time:  79, Time started:  77, Turnaround time:  34, Wait time:  32, Response time:  32]
+[Process: P28, Arrival time:  45, Run time:   6, Priority: 4, End time:  85, Time started:  79, Turnaround time:  40, Wait time:  34, Response time:  34]
+[Process: P18, Arrival time:  50, Run time:   7, Priority: 4, End time:  92, Time started:  85, Turnaround time:  42, Wait time:  35, Response time:  35]
+[Process:  P3, Arrival time:  51, Run time:  10, Priority: 4, End time: 102, Time started:  92, Turnaround time:  51, Wait time:  41, Response time:  41]
+
+
+Averages turnaround time: 32.8125
+Average wait time: 26.5625
+Average response time: 26.5625
+Throughput: 0.15384615384615385 processes completed per quanta.
+
+[*][*][*][*][P23][P23][P23][P23][P23][P23][P23][P23][P23][P23][P4][P4][P4][P4][P4][P4][P19][P19][P19][P19][P19][P19][P19][P19][P19][P9][P9][P9][P9][P9][P9][P9][P24][P24][P1][P1][P1][P1][P1][P1][P7][P7][P7][P7][P7][P7][P22][P22][P18][P18][P18][P18][P18][P18][P18][P18][P18][P29][P29][P29][P29][P29][P29][P8][P8][P8][P8][P8][P8][P8][P8][P8][P27][P27][P27][P27][P6][P6][P6][P6][P6][P6][P6][P6][P28][P28][P28][P28][P28][P28][P13][P11][P11][P11][P11][P11][P11][P11][P11][P11]
+[Process: P23, Arrival time:   4, Run time:  10, Priority: 1, End time:  14, Time started:   4, Turnaround time:  10, Wait time:   0, Response time:   0]
+[Process:  P4, Arrival time:   5, Run time:   6, Priority: 1, End time:  20, Time started:  14, Turnaround time:  15, Wait time:   9, Response time:   9]
+[Process: P19, Arrival time:  11, Run time:   9, Priority: 4, End time:  29, Time started:  20, Turnaround time:  18, Wait time:   9, Response time:   9]
+[Process:  P9, Arrival time:  16, Run time:   7, Priority: 4, End time:  36, Time started:  29, Turnaround time:  20, Wait time:  13, Response time:  13]
+[Process: P24, Arrival time:  16, Run time:   2, Priority: 1, End time:  38, Time started:  36, Turnaround time:  22, Wait time:  20, Response time:  20]
+[Process:  P1, Arrival time:  21, Run time:   6, Priority: 1, End time:  44, Time started:  38, Turnaround time:  23, Wait time:  17, Response time:  17]
+[Process:  P7, Arrival time:  22, Run time:   6, Priority: 4, End time:  50, Time started:  44, Turnaround time:  28, Wait time:  22, Response time:  22]
+[Process: P22, Arrival time:  22, Run time:   2, Priority: 1, End time:  52, Time started:  50, Turnaround time:  30, Wait time:  28, Response time:  28]
+[Process: P18, Arrival time:  28, Run time:   9, Priority: 4, End time:  61, Time started:  52, Turnaround time:  33, Wait time:  24, Response time:  24]
+[Process: P29, Arrival time:  28, Run time:   6, Priority: 4, End time:  67, Time started:  61, Turnaround time:  39, Wait time:  33, Response time:  33]
+[Process:  P8, Arrival time:  34, Run time:   9, Priority: 4, End time:  76, Time started:  67, Turnaround time:  42, Wait time:  33, Response time:  33]
+[Process: P27, Arrival time:  34, Run time:   4, Priority: 4, End time:  80, Time started:  76, Turnaround time:  46, Wait time:  42, Response time:  42]
+[Process:  P6, Arrival time:  40, Run time:   8, Priority: 4, End time:  88, Time started:  80, Turnaround time:  48, Wait time:  40, Response time:  40]
+[Process: P28, Arrival time:  45, Run time:   6, Priority: 3, End time:  94, Time started:  88, Turnaround time:  49, Wait time:  43, Response time:  43]
+[Process: P13, Arrival time:  46, Run time:   1, Priority: 3, End time:  95, Time started:  94, Turnaround time:  49, Wait time:  48, Response time:  48]
+[Process: P11, Arrival time:  51, Run time:   9, Priority: 3, End time: 104, Time started:  95, Turnaround time:  53, Wait time:  44, Response time:  44]
+
+
+Averages turnaround time: 25.31578947368421
+Average wait time: 19.789473684210527
+Average response time: 19.789473684210527
+Throughput: 0.18095238095238095 processes completed per quanta.
+
+[P14][P14][P14][P14][P14][P12][P12][P12][P12][P12][P23][P23][P23][P23][P23][P23][P23][P23][P23][P4][P4][P4][P4][P19][P19][P19][P19][P19][P19][P19][P19][P19][P17][P17][P17][P17][P17][P17][P17][P7][P7][P7][P7][P7][P22][P18][P18][P18][P18][P18][P18][P18][P18][P18][P27][P27][P27][P16][P16][P16][P16][P16][P16][P16][P16][P16][P6][P6][P6][P6][P6][P6][P6][P25][P25][P25][P21][P11][P26][P26][P26][P26][P26][P3][P3][P3][P3][P3][P3][P3][P3][P3][P3][P24][P24][P24][P9][P9][P9][P9][P9][P9][P9][P9][P9]
+[Process: P14, Arrival time:   0, Run time:   5, Priority: 4, End time:   5, Time started:   0, Turnaround time:   5, Wait time:   0, Response time:   0]
+[Process: P12, Arrival time:   5, Run time:   5, Priority: 4, End time:  10, Time started:   5, Turnaround time:   5, Wait time:   0, Response time:   0]
+[Process: P23, Arrival time:   5, Run time:   9, Priority: 4, End time:  19, Time started:  10, Turnaround time:  14, Wait time:   5, Response time:   5]
+[Process:  P4, Arrival time:  10, Run time:   4, Priority: 1, End time:  23, Time started:  19, Turnaround time:  13, Wait time:   9, Response time:   9]
+[Process: P19, Arrival time:  11, Run time:   9, Priority: 3, End time:  32, Time started:  23, Turnaround time:  21, Wait time:  12, Response time:  12]
+[Process: P17, Arrival time:  17, Run time:   7, Priority: 3, End time:  39, Time started:  32, Turnaround time:  22, Wait time:  15, Response time:  15]
+[Process:  P7, Arrival time:  23, Run time:   5, Priority: 3, End time:  44, Time started:  39, Turnaround time:  21, Wait time:  16, Response time:  16]
+[Process: P22, Arrival time:  23, Run time:   1, Priority: 4, End time:  45, Time started:  44, Turnaround time:  22, Wait time:  21, Response time:  21]
+[Process: P18, Arrival time:  29, Run time:   9, Priority: 3, End time:  54, Time started:  45, Turnaround time:  25, Wait time:  16, Response time:  16]
+[Process: P27, Arrival time:  34, Run time:   3, Priority: 3, End time:  57, Time started:  54, Turnaround time:  23, Wait time:  20, Response time:  20]
+[Process: P16, Arrival time:  35, Run time:   9, Priority: 3, End time:  66, Time started:  57, Turnaround time:  31, Wait time:  22, Response time:  22]
+[Process:  P6, Arrival time:  40, Run time:   7, Priority: 3, End time:  73, Time started:  66, Turnaround time:  33, Wait time:  26, Response time:  26]
+[Process: P25, Arrival time:  40, Run time:   3, Priority: 3, End time:  76, Time started:  73, Turnaround time:  36, Wait time:  33, Response time:  33]
+[Process: P21, Arrival time:  46, Run time:   1, Priority: 2, End time:  77, Time started:  76, Turnaround time:  31, Wait time:  30, Response time:  30]
+[Process: P11, Arrival time:  52, Run time:   1, Priority: 2, End time:  78, Time started:  77, Turnaround time:  26, Wait time:  25, Response time:  25]
+[Process: P26, Arrival time:  52, Run time:   5, Priority: 2, End time:  83, Time started:  78, Turnaround time:  31, Wait time:  26, Response time:  26]
+[Process:  P3, Arrival time:  57, Run time:  10, Priority: 3, End time:  93, Time started:  83, Turnaround time:  36, Wait time:  26, Response time:  26]
+[Process: P24, Arrival time:  57, Run time:   3, Priority: 2, End time:  96, Time started:  93, Turnaround time:  39, Wait time:  36, Response time:  36]
+[Process:  P9, Arrival time:  58, Run time:   9, Priority: 2, End time: 105, Time started:  96, Turnaround time:  47, Wait time:  38, Response time:  38]
+
+
+Averages turnaround time: 14.95
+Average wait time: 9.95
+Average response time: 9.95
+Throughput: 0.19801980198019803 processes completed per quanta.
+
+[*][P13][P28][P28][P28][P28][P28][P28][P28][P28][P26][P26][P26][P26][P26][P26][P11][P4][P4][P4][P22][P22][P22][P22][P22][P2][P12][P12][P12][P10][P7][P7][P7][P7][P7][P17][P17][P17][P17][P17][P30][P30][P30][P30][P30][P30][P30][P30][P30][P30][P15][P15][P15][P15][P15][P6][P6][P6][P6][P6][P6][P6][P16][P16][P16][P16][P16][P16][P16][P14][P14][P14][P14][P14][P25][P25][P21][P21][P21][P21][P21][P21][P21][P21][P21][P1][P1][P1][P1][P1][P1][P1][P19][P19][P19][P19][P19][P19][P19][P19][P19]
+[Process: P13, Arrival time:   1, Run time:   1, Priority: 2, End time:   2, Time started:   1, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P28, Arrival time:   1, Run time:   8, Priority: 3, End time:  10, Time started:   2, Turnaround time:   9, Wait time:   1, Response time:   1]
+[Process: P26, Arrival time:   6, Run time:   6, Priority: 2, End time:  16, Time started:  10, Turnaround time:  10, Wait time:   4, Response time:   4]
+[Process: P11, Arrival time:   7, Run time:   1, Priority: 2, End time:  17, Time started:  16, Turnaround time:  10, Wait time:   9, Response time:   9]
+[Process:  P4, Arrival time:  11, Run time:   3, Priority: 4, End time:  20, Time started:  17, Turnaround time:   9, Wait time:   6, Response time:   6]
+[Process: P22, Arrival time:  13, Run time:   5, Priority: 1, End time:  25, Time started:  20, Turnaround time:  12, Wait time:   7, Response time:   7]
+[Process:  P2, Arrival time:  17, Run time:   1, Priority: 4, End time:  26, Time started:  25, Turnaround time:   9, Wait time:   8, Response time:   8]
+[Process: P12, Arrival time:  18, Run time:   3, Priority: 1, End time:  29, Time started:  26, Turnaround time:  11, Wait time:   8, Response time:   8]
+[Process: P10, Arrival time:  24, Run time:   1, Priority: 1, End time:  30, Time started:  29, Turnaround time:   6, Wait time:   5, Response time:   5]
+[Process:  P7, Arrival time:  29, Run time:   5, Priority: 3, End time:  35, Time started:  30, Turnaround time:   6, Wait time:   1, Response time:   1]
+[Process: P17, Arrival time:  30, Run time:   5, Priority: 1, End time:  40, Time started:  35, Turnaround time:  10, Wait time:   5, Response time:   5]
+[Process: P30, Arrival time:  35, Run time:  10, Priority: 1, End time:  50, Time started:  40, Turnaround time:  15, Wait time:   5, Response time:   5]
+[Process: P15, Arrival time:  36, Run time:   5, Priority: 1, End time:  55, Time started:  50, Turnaround time:  19, Wait time:  14, Response time:  14]
+[Process:  P6, Arrival time:  46, Run time:   7, Priority: 2, End time:  62, Time started:  55, Turnaround time:  16, Wait time:   9, Response time:   9]
+[Process: P16, Arrival time:  48, Run time:   7, Priority: 4, End time:  69, Time started:  62, Turnaround time:  21, Wait time:  14, Response time:  14]
+[Process: P14, Arrival time:  53, Run time:   5, Priority: 4, End time:  74, Time started:  69, Turnaround time:  21, Wait time:  16, Response time:  16]
+[Process: P25, Arrival time:  53, Run time:   2, Priority: 4, End time:  76, Time started:  74, Turnaround time:  23, Wait time:  21, Response time:  21]
+[Process: P21, Arrival time:  59, Run time:   9, Priority: 3, End time:  85, Time started:  76, Turnaround time:  26, Wait time:  17, Response time:  17]
+[Process:  P1, Arrival time:  63, Run time:   7, Priority: 2, End time:  92, Time started:  85, Turnaround time:  29, Wait time:  22, Response time:  22]
+[Process: P19, Arrival time:  65, Run time:   9, Priority: 3, End time: 101, Time started:  92, Turnaround time:  36, Wait time:  27, Response time:  27]
+
+//- Testing SJF.
+Averages turnaround time: 10.208333333333334
+Average wait time: 6.125
+Average response time: 6.125
+Throughput: 0.2376237623762376 processes completed per quanta.
+
+[*][*][*][P28][P28][P28][P28][P28][P13][P26][P26][P26][P26][P26][P11][P11][P11][P11][P11][P11][P11][P11][P11][P16][P16][P16][P12][P12][P12][P10][P21][P21][P21][P21][P21][P19][P19][P19][P19][P19][P15][P15][P15][P1][P1][P1][P1][P1][P1][P1][P1][P1][P3][P5][P5][P5][P18][P18][P18][P18][P18][P14][P14][P14][P14][P14][P4][P4][P4][P2][P2][P2][P20][P20][P20][P20][P20][P20][P20][P24][P22][P7][P7][P7][P7][P7][P29][P29][P29][P29][P29][P27][P27][P27][P9][P9][P9][P9][P9][P9][P9]
+[Process: P28, Arrival time:   3, Run time:   5, Priority: 3, End time:   8, Time started:   3, Turnaround time:   5, Wait time:   0, Response time:   0]
+[Process: P13, Arrival time:   4, Run time:   1, Priority: 2, End time:   9, Time started:   8, Turnaround time:   5, Wait time:   4, Response time:   4]
+[Process: P26, Arrival time:   9, Run time:   5, Priority: 3, End time:  14, Time started:   9, Turnaround time:   5, Wait time:   0, Response time:   0]
+[Process: P11, Arrival time:   9, Run time:   9, Priority: 2, End time:  23, Time started:  14, Turnaround time:  14, Wait time:   5, Response time:   5]
+[Process: P16, Arrival time:  15, Run time:   3, Priority: 3, End time:  26, Time started:  23, Turnaround time:  11, Wait time:   8, Response time:   8]
+[Process: P12, Arrival time:  21, Run time:   3, Priority: 2, End time:  29, Time started:  26, Turnaround time:   8, Wait time:   5, Response time:   5]
+[Process: P10, Arrival time:  27, Run time:   1, Priority: 2, End time:  30, Time started:  29, Turnaround time:   3, Wait time:   2, Response time:   2]
+[Process: P21, Arrival time:  26, Run time:   5, Priority: 2, End time:  35, Time started:  30, Turnaround time:   9, Wait time:   4, Response time:   4]
+[Process: P19, Arrival time:  32, Run time:   5, Priority: 2, End time:  40, Time started:  35, Turnaround time:   8, Wait time:   3, Response time:   3]
+[Process: P15, Arrival time:  39, Run time:   3, Priority: 1, End time:  43, Time started:  40, Turnaround time:   4, Wait time:   1, Response time:   1]
+[Process:  P1, Arrival time:  15, Run time:   9, Priority: 2, End time:  52, Time started:  43, Turnaround time:  37, Wait time:  28, Response time:  28]
+[Process:  P3, Arrival time:  50, Run time:   1, Priority: 1, End time:  53, Time started:  52, Turnaround time:   3, Wait time:   2, Response time:   2]
+[Process:  P5, Arrival time:  44, Run time:   3, Priority: 1, End time:  56, Time started:  53, Turnaround time:  12, Wait time:   9, Response time:   9]
+[Process: P18, Arrival time:  50, Run time:   5, Priority: 1, End time:  61, Time started:  56, Turnaround time:  11, Wait time:   6, Response time:   6]
+[Process: P14, Arrival time:  56, Run time:   5, Priority: 4, End time:  66, Time started:  61, Turnaround time:  10, Wait time:   5, Response time:   5]
+[Process:  P4, Arrival time:  62, Run time:   3, Priority: 4, End time:  69, Time started:  66, Turnaround time:   7, Wait time:   4, Response time:   4]
+[Process:  P2, Arrival time:  67, Run time:   3, Priority: 4, End time:  72, Time started:  69, Turnaround time:   5, Wait time:   2, Response time:   2]
+[Process: P20, Arrival time:  44, Run time:   7, Priority: 1, End time:  79, Time started:  72, Turnaround time:  35, Wait time:  28, Response time:  28]
+[Process: P24, Arrival time:  73, Run time:   1, Priority: 4, End time:  80, Time started:  79, Turnaround time:   7, Wait time:   6, Response time:   6]
+[Process: P22, Arrival time:  79, Run time:   1, Priority: 4, End time:  81, Time started:  80, Turnaround time:   2, Wait time:   1, Response time:   1]
+[Process:  P7, Arrival time:  79, Run time:   5, Priority: 3, End time:  86, Time started:  81, Turnaround time:   7, Wait time:   2, Response time:   2]
+[Process: P29, Arrival time:  85, Run time:   5, Priority: 3, End time:  91, Time started:  86, Turnaround time:   6, Wait time:   1, Response time:   1]
+[Process: P27, Arrival time:  91, Run time:   3, Priority: 3, End time:  94, Time started:  91, Turnaround time:   3, Wait time:   0, Response time:   0]
+[Process:  P9, Arrival time:  73, Run time:   7, Priority: 4, End time: 101, Time started:  94, Turnaround time:  28, Wait time:  21, Response time:  21]
+
+
+Averages turnaround time: 10.666666666666666
+Average wait time: 5.9523809523809526
+Average response time: 5.9523809523809526
+Throughput: 0.2 processes completed per quanta.
+
+[*][*][*][*][P4][P4][P4][P4][*][*][P26][P26][P26][P26][P11][P11][P11][P11][P11][P11][P11][P11][P24][P24][P1][P1][P1][P1][P1][P1][P1][P29][P29][P29][P29][P29][P29][P19][P19][P19][P19][P15][P15][P9][P9][P9][P9][P9][P9][P9][P9][P13][P13][P28][P28][P28][P28][P28][P28][P14][P14][P14][P14][P12][P12][P12][P12][P18][P18][P18][P18][P18][P18][P18][P2][P2][P17][P17][P17][P17][P17][P17][P7][P7][P7][P7][P5][P5][P5][P5][P21][P21][P21][P21][P21][P21][P21][P27][P27][P6][P6][P6][P6][P6][P6]
+[Process:  P4, Arrival time:   4, Run time:   4, Priority: 2, End time:   8, Time started:   4, Turnaround time:   4, Wait time:   0, Response time:   0]
+[Process: P26, Arrival time:  10, Run time:   4, Priority: 2, End time:  14, Time started:  10, Turnaround time:   4, Wait time:   0, Response time:   0]
+[Process: P11, Arrival time:  10, Run time:   8, Priority: 1, End time:  22, Time started:  14, Turnaround time:  12, Wait time:   4, Response time:   4]
+[Process: P24, Arrival time:  15, Run time:   2, Priority: 2, End time:  24, Time started:  22, Turnaround time:   9, Wait time:   7, Response time:   7]
+[Process:  P1, Arrival time:  21, Run time:   7, Priority: 2, End time:  31, Time started:  24, Turnaround time:  10, Wait time:   3, Response time:   3]
+[Process: P29, Arrival time:  27, Run time:   6, Priority: 1, End time:  37, Time started:  31, Turnaround time:  10, Wait time:   4, Response time:   4]
+[Process: P19, Arrival time:  33, Run time:   4, Priority: 1, End time:  41, Time started:  37, Turnaround time:   8, Wait time:   4, Response time:   4]
+[Process: P15, Arrival time:  39, Run time:   2, Priority: 4, End time:  43, Time started:  41, Turnaround time:   4, Wait time:   2, Response time:   2]
+[Process:  P9, Arrival time:  16, Run time:   8, Priority: 1, End time:  51, Time started:  43, Turnaround time:  35, Wait time:  27, Response time:  27]
+[Process: P13, Arrival time:  45, Run time:   2, Priority: 4, End time:  53, Time started:  51, Turnaround time:   8, Wait time:   6, Response time:   6]
+[Process: P28, Arrival time:  45, Run time:   6, Priority: 4, End time:  59, Time started:  53, Turnaround time:  14, Wait time:   8, Response time:   8]
+[Process: P14, Arrival time:  57, Run time:   4, Priority: 3, End time:  63, Time started:  59, Turnaround time:   6, Wait time:   2, Response time:   2]
+[Process: P12, Arrival time:  62, Run time:   4, Priority: 3, End time:  67, Time started:  63, Turnaround time:   5, Wait time:   1, Response time:   1]
+[Process: P18, Arrival time:  50, Run time:   7, Priority: 4, End time:  74, Time started:  67, Turnaround time:  24, Wait time:  17, Response time:  17]
+[Process:  P2, Arrival time:  68, Run time:   2, Priority: 3, End time:  76, Time started:  74, Turnaround time:   8, Wait time:   6, Response time:   6]
+[Process: P17, Arrival time:  74, Run time:   6, Priority: 3, End time:  82, Time started:  76, Turnaround time:   8, Wait time:   2, Response time:   2]
+[Process:  P7, Arrival time:  80, Run time:   4, Priority: 3, End time:  86, Time started:  82, Turnaround time:   6, Wait time:   2, Response time:   2]
+[Process:  P5, Arrival time:  86, Run time:   4, Priority: 2, End time:  90, Time started:  86, Turnaround time:   4, Wait time:   0, Response time:   0]
+[Process: P21, Arrival time:  68, Run time:   7, Priority: 4, End time:  97, Time started:  90, Turnaround time:  29, Wait time:  22, Response time:  22]
+[Process: P27, Arrival time:  91, Run time:   2, Priority: 2, End time:  99, Time started:  97, Turnaround time:   8, Wait time:   6, Response time:   6]
+[Process:  P6, Arrival time:  97, Run time:   6, Priority: 2, End time: 105, Time started:  99, Turnaround time:   8, Wait time:   2, Response time:   2]
+
+
+Averages turnaround time: 12.05
+Average wait time: 7.25
+Average response time: 7.25
+Throughput: 0.2 processes completed per quanta.
+
+[*][*][*][*][P23][P23][P23][P23][P23][P23][P23][P23][P23][P23][P4][P4][P4][P4][P4][P4][P24][P24][P22][P22][P1][P1][P1][P1][P1][P1][P7][P7][P7][P7][P7][P7][P27][P27][P27][P27][P29][P29][P29][P29][P29][P29][P13][P28][P28][P28][P28][P28][P28][P26][P26][P26][P26][P26][P26][P9][P9][P9][P9][P9][P9][P9][P12][P12][P12][P10][P6][P6][P6][P6][P6][P6][P6][P6][P17][P17][P17][P17][P17][P15][P15][P15][P5][P5][P5][P5][P21][P21][P21][P21][P21][P21][P21][P21][P25][P25]
+[Process: P23, Arrival time:   4, Run time:  10, Priority: 1, End time:  14, Time started:   4, Turnaround time:  10, Wait time:   0, Response time:   0]
+[Process:  P4, Arrival time:   5, Run time:   6, Priority: 1, End time:  20, Time started:  14, Turnaround time:  15, Wait time:   9, Response time:   9]
+[Process: P24, Arrival time:  16, Run time:   2, Priority: 1, End time:  22, Time started:  20, Turnaround time:   6, Wait time:   4, Response time:   4]
+[Process: P22, Arrival time:  22, Run time:   2, Priority: 1, End time:  24, Time started:  22, Turnaround time:   2, Wait time:   0, Response time:   0]
+[Process:  P1, Arrival time:  21, Run time:   6, Priority: 1, End time:  30, Time started:  24, Turnaround time:   9, Wait time:   3, Response time:   3]
+[Process:  P7, Arrival time:  22, Run time:   6, Priority: 4, End time:  36, Time started:  30, Turnaround time:  14, Wait time:   8, Response time:   8]
+[Process: P27, Arrival time:  34, Run time:   4, Priority: 4, End time:  40, Time started:  36, Turnaround time:   6, Wait time:   2, Response time:   2]
+[Process: P29, Arrival time:  28, Run time:   6, Priority: 4, End time:  46, Time started:  40, Turnaround time:  18, Wait time:  12, Response time:  12]
+[Process: P13, Arrival time:  46, Run time:   1, Priority: 3, End time:  47, Time started:  46, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P28, Arrival time:  45, Run time:   6, Priority: 3, End time:  53, Time started:  47, Turnaround time:   8, Wait time:   2, Response time:   2]
+[Process: P26, Arrival time:  51, Run time:   6, Priority: 3, End time:  59, Time started:  53, Turnaround time:   8, Wait time:   2, Response time:   2]
+[Process:  P9, Arrival time:  16, Run time:   7, Priority: 4, End time:  66, Time started:  59, Turnaround time:  50, Wait time:  43, Response time:  43]
+[Process: P12, Arrival time:  63, Run time:   3, Priority: 2, End time:  69, Time started:  66, Turnaround time:   6, Wait time:   3, Response time:   3]
+[Process: P10, Arrival time:  69, Run time:   1, Priority: 2, End time:  70, Time started:  69, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process:  P6, Arrival time:  40, Run time:   8, Priority: 4, End time:  78, Time started:  70, Turnaround time:  38, Wait time:  30, Response time:  30]
+[Process: P17, Arrival time:  75, Run time:   5, Priority: 2, End time:  83, Time started:  78, Turnaround time:   8, Wait time:   3, Response time:   3]
+[Process: P15, Arrival time:  81, Run time:   3, Priority: 2, End time:  86, Time started:  83, Turnaround time:   5, Wait time:   2, Response time:   2]
+[Process:  P5, Arrival time:  86, Run time:   4, Priority: 2, End time:  90, Time started:  86, Turnaround time:   4, Wait time:   0, Response time:   0]
+[Process: P21, Arrival time:  68, Run time:   8, Priority: 3, End time:  98, Time started:  90, Turnaround time:  30, Wait time:  22, Response time:  22]
+[Process: P25, Arrival time:  98, Run time:   2, Priority: 1, End time: 100, Time started:  98, Turnaround time:   2, Wait time:   0, Response time:   0]
+
+
+Averages turnaround time: 10.25
+Average wait time: 5.875
+Average response time: 5.875
+Throughput: 0.22857142857142856 processes completed per quanta.
+
+[P14][P14][P14][P14][P14][P12][P12][P12][P12][P12][P4][P4][P4][P4][P23][P23][P23][P23][P23][P23][P23][P23][P23][P22][P7][P7][P7][P7][P7][P17][P17][P17][P17][P17][P17][P17][P27][P27][P27][P19][P19][P19][P19][P19][P19][P19][P19][P19][P21][P25][P25][P25][P11][P26][P26][P26][P26][P26][P24][P24][P24][P6][P6][P6][P6][P6][P6][P6][P20][P20][P20][P10][P29][P29][P29][P29][P29][P29][P29][P8][P1][P1][P1][P1][P1][P1][P1][P1][P13][P13][P13][P15][P15][P15][P15][P15][P5][P5][P28][P28][P28][P28][P28][P28][P28]
+[Process: P14, Arrival time:   0, Run time:   5, Priority: 4, End time:   5, Time started:   0, Turnaround time:   5, Wait time:   0, Response time:   0]
+[Process: P12, Arrival time:   5, Run time:   5, Priority: 4, End time:  10, Time started:   5, Turnaround time:   5, Wait time:   0, Response time:   0]
+[Process:  P4, Arrival time:  10, Run time:   4, Priority: 1, End time:  14, Time started:  10, Turnaround time:   4, Wait time:   0, Response time:   0]
+[Process: P23, Arrival time:   5, Run time:   9, Priority: 4, End time:  23, Time started:  14, Turnaround time:  18, Wait time:   9, Response time:   9]
+[Process: P22, Arrival time:  23, Run time:   1, Priority: 4, End time:  24, Time started:  23, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process:  P7, Arrival time:  23, Run time:   5, Priority: 3, End time:  29, Time started:  24, Turnaround time:   6, Wait time:   1, Response time:   1]
+[Process: P17, Arrival time:  17, Run time:   7, Priority: 3, End time:  36, Time started:  29, Turnaround time:  19, Wait time:  12, Response time:  12]
+[Process: P27, Arrival time:  34, Run time:   3, Priority: 3, End time:  39, Time started:  36, Turnaround time:   5, Wait time:   2, Response time:   2]
+[Process: P19, Arrival time:  11, Run time:   9, Priority: 3, End time:  48, Time started:  39, Turnaround time:  37, Wait time:  28, Response time:  28]
+[Process: P21, Arrival time:  46, Run time:   1, Priority: 2, End time:  49, Time started:  48, Turnaround time:   3, Wait time:   2, Response time:   2]
+[Process: P25, Arrival time:  40, Run time:   3, Priority: 3, End time:  52, Time started:  49, Turnaround time:  12, Wait time:   9, Response time:   9]
+[Process: P11, Arrival time:  52, Run time:   1, Priority: 2, End time:  53, Time started:  52, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P26, Arrival time:  52, Run time:   5, Priority: 2, End time:  58, Time started:  53, Turnaround time:   6, Wait time:   1, Response time:   1]
+[Process: P24, Arrival time:  57, Run time:   3, Priority: 2, End time:  61, Time started:  58, Turnaround time:   4, Wait time:   1, Response time:   1]
+[Process:  P6, Arrival time:  40, Run time:   7, Priority: 3, End time:  68, Time started:  61, Turnaround time:  28, Wait time:  21, Response time:  21]
+[Process: P20, Arrival time:  64, Run time:   3, Priority: 1, End time:  71, Time started:  68, Turnaround time:   7, Wait time:   4, Response time:   4]
+[Process: P10, Arrival time:  70, Run time:   1, Priority: 1, End time:  72, Time started:  71, Turnaround time:   2, Wait time:   1, Response time:   1]
+[Process: P29, Arrival time:  69, Run time:   7, Priority: 2, End time:  79, Time started:  72, Turnaround time:  10, Wait time:   3, Response time:   3]
+[Process:  P8, Arrival time:  75, Run time:   1, Priority: 1, End time:  80, Time started:  79, Turnaround time:   5, Wait time:   4, Response time:   4]
+[Process:  P1, Arrival time:  63, Run time:   8, Priority: 3, End time:  88, Time started:  80, Turnaround time:  25, Wait time:  17, Response time:  17]
+[Process: P13, Arrival time:  87, Run time:   3, Priority: 1, End time:  91, Time started:  88, Turnaround time:   4, Wait time:   1, Response time:   1]
+[Process: P15, Arrival time:  81, Run time:   5, Priority: 1, End time:  96, Time started:  91, Turnaround time:  15, Wait time:  10, Response time:  10]
+[Process:  P5, Arrival time:  92, Run time:   2, Priority: 1, End time:  98, Time started:  96, Turnaround time:   6, Wait time:   4, Response time:   4]
+[Process: P28, Arrival time:  87, Run time:   7, Priority: 1, End time: 105, Time started:  98, Turnaround time:  18, Wait time:  11, Response time:  11]
+
+
+Averages turnaround time: 9.8
+Average wait time: 5.72
+Average response time: 5.72
+Throughput: 0.24271844660194175 processes completed per quanta.
+
+[*][P13][P28][P28][P28][P28][P28][P28][P28][P28][P11][P4][P4][P4][P22][P22][P22][P22][P22][P2][P12][P12][P12][P26][P26][P26][P26][P26][P26][P10][P7][P7][P7][P7][P7][P17][P17][P17][P17][P17][P15][P15][P15][P15][P15][P30][P30][P30][P30][P30][P30][P30][P30][P30][P30][P25][P25][P14][P14][P14][P14][P14][P6][P6][P6][P6][P6][P6][P6][P16][P16][P16][P16][P16][P16][P16][P24][P24][P24][P24][P20][P1][P1][P1][P1][P1][P1][P1][P18][P27][P27][P27][P27][P5][P23][P23][P23][P29][P29][P29][P29][P29][P29]
+[Process: P13, Arrival time:   1, Run time:   1, Priority: 2, End time:   2, Time started:   1, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P28, Arrival time:   1, Run time:   8, Priority: 3, End time:  10, Time started:   2, Turnaround time:   9, Wait time:   1, Response time:   1]
+[Process: P11, Arrival time:   7, Run time:   1, Priority: 2, End time:  11, Time started:  10, Turnaround time:   4, Wait time:   3, Response time:   3]
+[Process:  P4, Arrival time:  11, Run time:   3, Priority: 4, End time:  14, Time started:  11, Turnaround time:   3, Wait time:   0, Response time:   0]
+[Process: P22, Arrival time:  13, Run time:   5, Priority: 1, End time:  19, Time started:  14, Turnaround time:   6, Wait time:   1, Response time:   1]
+[Process:  P2, Arrival time:  17, Run time:   1, Priority: 4, End time:  20, Time started:  19, Turnaround time:   3, Wait time:   2, Response time:   2]
+[Process: P12, Arrival time:  18, Run time:   3, Priority: 1, End time:  23, Time started:  20, Turnaround time:   5, Wait time:   2, Response time:   2]
+[Process: P26, Arrival time:   6, Run time:   6, Priority: 2, End time:  29, Time started:  23, Turnaround time:  23, Wait time:  17, Response time:  17]
+[Process: P10, Arrival time:  24, Run time:   1, Priority: 1, End time:  30, Time started:  29, Turnaround time:   6, Wait time:   5, Response time:   5]
+[Process:  P7, Arrival time:  29, Run time:   5, Priority: 3, End time:  35, Time started:  30, Turnaround time:   6, Wait time:   1, Response time:   1]
+[Process: P17, Arrival time:  30, Run time:   5, Priority: 1, End time:  40, Time started:  35, Turnaround time:  10, Wait time:   5, Response time:   5]
+[Process: P15, Arrival time:  36, Run time:   5, Priority: 1, End time:  45, Time started:  40, Turnaround time:   9, Wait time:   4, Response time:   4]
+[Process: P30, Arrival time:  35, Run time:  10, Priority: 1, End time:  55, Time started:  45, Turnaround time:  20, Wait time:  10, Response time:  10]
+[Process: P25, Arrival time:  53, Run time:   2, Priority: 4, End time:  57, Time started:  55, Turnaround time:   4, Wait time:   2, Response time:   2]
+[Process: P14, Arrival time:  53, Run time:   5, Priority: 4, End time:  62, Time started:  57, Turnaround time:   9, Wait time:   4, Response time:   4]
+[Process:  P6, Arrival time:  46, Run time:   7, Priority: 2, End time:  69, Time started:  62, Turnaround time:  23, Wait time:  16, Response time:  16]
+[Process: P16, Arrival time:  48, Run time:   7, Priority: 4, End time:  76, Time started:  69, Turnaround time:  28, Wait time:  21, Response time:  21]
+[Process: P24, Arrival time:  70, Run time:   4, Priority: 4, End time:  80, Time started:  76, Turnaround time:  10, Wait time:   6, Response time:   6]
+[Process: P20, Arrival time:  77, Run time:   1, Priority: 3, End time:  81, Time started:  80, Turnaround time:   4, Wait time:   3, Response time:   3]
+[Process:  P1, Arrival time:  63, Run time:   7, Priority: 2, End time:  88, Time started:  81, Turnaround time:  25, Wait time:  18, Response time:  18]
+[Process: P18, Arrival time:  82, Run time:   1, Priority: 3, End time:  89, Time started:  88, Turnaround time:   7, Wait time:   6, Response time:   6]
+[Process: P27, Arrival time:  88, Run time:   4, Priority: 3, End time:  93, Time started:  89, Turnaround time:   5, Wait time:   1, Response time:   1]
+[Process:  P5, Arrival time:  93, Run time:   1, Priority: 1, End time:  94, Time started:  93, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P23, Arrival time:  94, Run time:   3, Priority: 2, End time:  97, Time started:  94, Turnaround time:   3, Wait time:   0, Response time:   0]
+[Process: P29, Arrival time:  82, Run time:   6, Priority: 3, End time: 103, Time started:  97, Turnaround time:  21, Wait time:  15, Response time:  15]
+
+//- Testing SRT.
+Averages turnaround time: 8.76
+Average wait time: 4.8
+Average response time: 3.28
+Throughput: 0.24509803921568626 processes completed per quanta.
+
+[*][*][*][P28][P13][P28][P28][P28][P28][P26][P26][P26][P26][P26][P11][P16][P16][P16][P11][P11][P11][P12][P12][P12][P11][P11][P11][P10][P11][P11][P21][P21][P21][P21][P21][P19][P19][P19][P19][P19][P15][P15][P15][P1][P5][P5][P5][P20][P20][P20][P3][P20][P20][P20][P20][P18][P18][P18][P18][P18][P14][P14][P14][P14][P14][P4][P4][P4][P2][P2][P2][P1][P1][P24][P1][P1][P1][P1][P1][P1][P22][P7][P7][P7][P7][P7][P29][P29][P29][P29][P29][P27][P27][P27][P9][P9][P17][P9][P9][P9][P9][P9]
+[Process: P13, Arrival time:   4, Run time:   1, Priority: 2, End time:   5, Time started:   4, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P28, Arrival time:   3, Run time:   5, Priority: 3, End time:   9, Time started:   3, Turnaround time:   6, Wait time:   1, Response time:   0]
+[Process: P26, Arrival time:   9, Run time:   5, Priority: 3, End time:  14, Time started:   9, Turnaround time:   5, Wait time:   0, Response time:   0]
+[Process: P16, Arrival time:  15, Run time:   3, Priority: 3, End time:  18, Time started:  15, Turnaround time:   3, Wait time:   0, Response time:   0]
+[Process: P12, Arrival time:  21, Run time:   3, Priority: 2, End time:  24, Time started:  21, Turnaround time:   3, Wait time:   0, Response time:   0]
+[Process: P10, Arrival time:  27, Run time:   1, Priority: 2, End time:  28, Time started:  27, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P11, Arrival time:   9, Run time:   9, Priority: 2, End time:  30, Time started:  14, Turnaround time:  21, Wait time:  12, Response time:   5]
+[Process: P21, Arrival time:  26, Run time:   5, Priority: 2, End time:  35, Time started:  30, Turnaround time:   9, Wait time:   4, Response time:   4]
+[Process: P19, Arrival time:  32, Run time:   5, Priority: 2, End time:  40, Time started:  35, Turnaround time:   8, Wait time:   3, Response time:   3]
+[Process: P15, Arrival time:  39, Run time:   3, Priority: 1, End time:  43, Time started:  40, Turnaround time:   4, Wait time:   1, Response time:   1]
+[Process:  P5, Arrival time:  44, Run time:   3, Priority: 1, End time:  47, Time started:  44, Turnaround time:   3, Wait time:   0, Response time:   0]
+[Process:  P3, Arrival time:  50, Run time:   1, Priority: 1, End time:  51, Time started:  50, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P20, Arrival time:  44, Run time:   7, Priority: 1, End time:  55, Time started:  47, Turnaround time:  11, Wait time:   4, Response time:   3]
+[Process: P18, Arrival time:  50, Run time:   5, Priority: 1, End time:  60, Time started:  55, Turnaround time:  10, Wait time:   5, Response time:   5]
+[Process: P14, Arrival time:  56, Run time:   5, Priority: 4, End time:  65, Time started:  60, Turnaround time:   9, Wait time:   4, Response time:   4]
+[Process:  P4, Arrival time:  62, Run time:   3, Priority: 4, End time:  68, Time started:  65, Turnaround time:   6, Wait time:   3, Response time:   3]
+[Process:  P2, Arrival time:  67, Run time:   3, Priority: 4, End time:  71, Time started:  68, Turnaround time:   4, Wait time:   1, Response time:   1]
+[Process: P24, Arrival time:  73, Run time:   1, Priority: 4, End time:  74, Time started:  73, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process:  P1, Arrival time:  15, Run time:   9, Priority: 2, End time:  80, Time started:  43, Turnaround time:  65, Wait time:  56, Response time:  28]
+[Process: P22, Arrival time:  79, Run time:   1, Priority: 4, End time:  81, Time started:  80, Turnaround time:   2, Wait time:   1, Response time:   1]
+[Process:  P7, Arrival time:  79, Run time:   5, Priority: 3, End time:  86, Time started:  81, Turnaround time:   7, Wait time:   2, Response time:   2]
+[Process: P29, Arrival time:  85, Run time:   5, Priority: 3, End time:  91, Time started:  86, Turnaround time:   6, Wait time:   1, Response time:   1]
+[Process: P27, Arrival time:  91, Run time:   3, Priority: 3, End time:  94, Time started:  91, Turnaround time:   3, Wait time:   0, Response time:   0]
+[Process: P17, Arrival time:  96, Run time:   1, Priority: 3, End time:  97, Time started:  96, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process:  P9, Arrival time:  73, Run time:   7, Priority: 4, End time: 102, Time started:  94, Turnaround time:  29, Wait time:  22, Response time:  21]
+
+
+Averages turnaround time: 9.95
+Average wait time: 5.3
+Average response time: 4.9
+Throughput: 0.20202020202020202 processes completed per quanta.
+
+[*][*][*][*][P4][P4][P4][P4][*][*][P26][P26][P26][P26][P11][P24][P24][P11][P11][P11][P11][P11][P11][P11][P1][P1][P1][P1][P1][P1][P1][P29][P29][P29][P29][P29][P29][P19][P19][P19][P19][P15][P15][P9][P9][P13][P13][P9][P9][P9][P9][P9][P9][P28][P28][P28][P28][P28][P28][P14][P14][P14][P14][P12][P12][P12][P12][P18][P2][P2][P18][P18][P18][P18][P18][P18][P17][P17][P17][P17][P17][P17][P7][P7][P7][P7][P5][P5][P5][P5][P21][P27][P27][P21][P21][P21][P21][P21][P21]
+[Process:  P4, Arrival time:   4, Run time:   4, Priority: 2, End time:   8, Time started:   4, Turnaround time:   4, Wait time:   0, Response time:   0]
+[Process: P26, Arrival time:  10, Run time:   4, Priority: 2, End time:  14, Time started:  10, Turnaround time:   4, Wait time:   0, Response time:   0]
+[Process: P24, Arrival time:  15, Run time:   2, Priority: 2, End time:  17, Time started:  15, Turnaround time:   2, Wait time:   0, Response time:   0]
+[Process: P11, Arrival time:  10, Run time:   8, Priority: 1, End time:  24, Time started:  14, Turnaround time:  14, Wait time:   6, Response time:   4]
+[Process:  P1, Arrival time:  21, Run time:   7, Priority: 2, End time:  31, Time started:  24, Turnaround time:  10, Wait time:   3, Response time:   3]
+[Process: P29, Arrival time:  27, Run time:   6, Priority: 1, End time:  37, Time started:  31, Turnaround time:  10, Wait time:   4, Response time:   4]
+[Process: P19, Arrival time:  33, Run time:   4, Priority: 1, End time:  41, Time started:  37, Turnaround time:   8, Wait time:   4, Response time:   4]
+[Process: P15, Arrival time:  39, Run time:   2, Priority: 4, End time:  43, Time started:  41, Turnaround time:   4, Wait time:   2, Response time:   2]
+[Process: P13, Arrival time:  45, Run time:   2, Priority: 4, End time:  47, Time started:  45, Turnaround time:   2, Wait time:   0, Response time:   0]
+[Process:  P9, Arrival time:  16, Run time:   8, Priority: 1, End time:  53, Time started:  43, Turnaround time:  37, Wait time:  29, Response time:  27]
+[Process: P28, Arrival time:  45, Run time:   6, Priority: 4, End time:  59, Time started:  53, Turnaround time:  14, Wait time:   8, Response time:   8]
+[Process: P14, Arrival time:  57, Run time:   4, Priority: 3, End time:  63, Time started:  59, Turnaround time:   6, Wait time:   2, Response time:   2]
+[Process: P12, Arrival time:  62, Run time:   4, Priority: 3, End time:  67, Time started:  63, Turnaround time:   5, Wait time:   1, Response time:   1]
+[Process:  P2, Arrival time:  68, Run time:   2, Priority: 3, End time:  70, Time started:  68, Turnaround time:   2, Wait time:   0, Response time:   0]
+[Process: P18, Arrival time:  50, Run time:   7, Priority: 4, End time:  76, Time started:  67, Turnaround time:  26, Wait time:  19, Response time:  17]
+[Process: P17, Arrival time:  74, Run time:   6, Priority: 3, End time:  82, Time started:  76, Turnaround time:   8, Wait time:   2, Response time:   2]
+[Process:  P7, Arrival time:  80, Run time:   4, Priority: 3, End time:  86, Time started:  82, Turnaround time:   6, Wait time:   2, Response time:   2]
+[Process:  P5, Arrival time:  86, Run time:   4, Priority: 2, End time:  90, Time started:  86, Turnaround time:   4, Wait time:   0, Response time:   0]
+[Process: P27, Arrival time:  91, Run time:   2, Priority: 2, End time:  93, Time started:  91, Turnaround time:   2, Wait time:   0, Response time:   0]
+[Process: P21, Arrival time:  68, Run time:   7, Priority: 4, End time:  99, Time started:  90, Turnaround time:  31, Wait time:  24, Response time:  22]
+
+
+Averages turnaround time: 11.8
+Average wait time: 7.0
+Average response time: 6.6
+Throughput: 0.2 processes completed per quanta.
+
+[*][*][*][*][P23][P4][P4][P4][P4][P4][P4][P23][P23][P23][P23][P23][P24][P24][P23][P23][P23][P23][P22][P22][P1][P1][P1][P1][P1][P1][P7][P7][P7][P7][P7][P7][P27][P27][P27][P27][P29][P29][P29][P29][P29][P29][P13][P28][P28][P28][P28][P28][P28][P26][P26][P26][P26][P26][P26][P9][P9][P9][P9][P9][P9][P9][P12][P12][P12][P10][P6][P6][P6][P6][P6][P6][P6][P6][P17][P17][P17][P17][P17][P15][P15][P15][P5][P5][P5][P5][P21][P21][P21][P21][P21][P21][P21][P21][P25][P25]
+[Process:  P4, Arrival time:   5, Run time:   6, Priority: 1, End time:  11, Time started:   5, Turnaround time:   6, Wait time:   0, Response time:   0]
+[Process: P24, Arrival time:  16, Run time:   2, Priority: 1, End time:  18, Time started:  16, Turnaround time:   2, Wait time:   0, Response time:   0]
+[Process: P23, Arrival time:   4, Run time:  10, Priority: 1, End time:  22, Time started:   4, Turnaround time:  18, Wait time:   8, Response time:   0]
+[Process: P22, Arrival time:  22, Run time:   2, Priority: 1, End time:  24, Time started:  22, Turnaround time:   2, Wait time:   0, Response time:   0]
+[Process:  P1, Arrival time:  21, Run time:   6, Priority: 1, End time:  30, Time started:  24, Turnaround time:   9, Wait time:   3, Response time:   3]
+[Process:  P7, Arrival time:  22, Run time:   6, Priority: 4, End time:  36, Time started:  30, Turnaround time:  14, Wait time:   8, Response time:   8]
+[Process: P27, Arrival time:  34, Run time:   4, Priority: 4, End time:  40, Time started:  36, Turnaround time:   6, Wait time:   2, Response time:   2]
+[Process: P29, Arrival time:  28, Run time:   6, Priority: 4, End time:  46, Time started:  40, Turnaround time:  18, Wait time:  12, Response time:  12]
+[Process: P13, Arrival time:  46, Run time:   1, Priority: 3, End time:  47, Time started:  46, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P28, Arrival time:  45, Run time:   6, Priority: 3, End time:  53, Time started:  47, Turnaround time:   8, Wait time:   2, Response time:   2]
+[Process: P26, Arrival time:  51, Run time:   6, Priority: 3, End time:  59, Time started:  53, Turnaround time:   8, Wait time:   2, Response time:   2]
+[Process:  P9, Arrival time:  16, Run time:   7, Priority: 4, End time:  66, Time started:  59, Turnaround time:  50, Wait time:  43, Response time:  43]
+[Process: P12, Arrival time:  63, Run time:   3, Priority: 2, End time:  69, Time started:  66, Turnaround time:   6, Wait time:   3, Response time:   3]
+[Process: P10, Arrival time:  69, Run time:   1, Priority: 2, End time:  70, Time started:  69, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process:  P6, Arrival time:  40, Run time:   8, Priority: 4, End time:  78, Time started:  70, Turnaround time:  38, Wait time:  30, Response time:  30]
+[Process: P17, Arrival time:  75, Run time:   5, Priority: 2, End time:  83, Time started:  78, Turnaround time:   8, Wait time:   3, Response time:   3]
+[Process: P15, Arrival time:  81, Run time:   3, Priority: 2, End time:  86, Time started:  83, Turnaround time:   5, Wait time:   2, Response time:   2]
+[Process:  P5, Arrival time:  86, Run time:   4, Priority: 2, End time:  90, Time started:  86, Turnaround time:   4, Wait time:   0, Response time:   0]
+[Process: P21, Arrival time:  68, Run time:   8, Priority: 3, End time:  98, Time started:  90, Turnaround time:  30, Wait time:  22, Response time:  22]
+[Process: P25, Arrival time:  98, Run time:   2, Priority: 1, End time: 100, Time started:  98, Turnaround time:   2, Wait time:   0, Response time:   0]
+
+
+Averages turnaround time: 9.541666666666666
+Average wait time: 5.166666666666667
+Average response time: 3.7083333333333335
+Throughput: 0.22857142857142856 processes completed per quanta.
+
+[P14][P14][P14][P14][P14][P12][P12][P12][P12][P12][P4][P4][P4][P4][P23][P23][P23][P23][P23][P23][P23][P23][P23][P22][P7][P7][P7][P7][P7][P17][P17][P17][P17][P17][P17][P17][P27][P27][P27][P19][P25][P25][P25][P6][P6][P6][P21][P6][P6][P6][P6][P19][P11][P26][P26][P26][P26][P26][P24][P24][P24][P19][P19][P19][P20][P20][P20][P19][P19][P19][P19][P10][P29][P29][P29][P8][P29][P29][P29][P29][P1][P15][P15][P15][P15][P15][P1][P13][P13][P13][P1][P1][P5][P5][P1][P1][P1][P1][P28][P28][P28][P28][P28][P28][P28]
+[Process: P14, Arrival time:   0, Run time:   5, Priority: 4, End time:   5, Time started:   0, Turnaround time:   5, Wait time:   0, Response time:   0]
+[Process: P12, Arrival time:   5, Run time:   5, Priority: 4, End time:  10, Time started:   5, Turnaround time:   5, Wait time:   0, Response time:   0]
+[Process:  P4, Arrival time:  10, Run time:   4, Priority: 1, End time:  14, Time started:  10, Turnaround time:   4, Wait time:   0, Response time:   0]
+[Process: P23, Arrival time:   5, Run time:   9, Priority: 4, End time:  23, Time started:  14, Turnaround time:  18, Wait time:   9, Response time:   9]
+[Process: P22, Arrival time:  23, Run time:   1, Priority: 4, End time:  24, Time started:  23, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process:  P7, Arrival time:  23, Run time:   5, Priority: 3, End time:  29, Time started:  24, Turnaround time:   6, Wait time:   1, Response time:   1]
+[Process: P17, Arrival time:  17, Run time:   7, Priority: 3, End time:  36, Time started:  29, Turnaround time:  19, Wait time:  12, Response time:  12]
+[Process: P27, Arrival time:  34, Run time:   3, Priority: 3, End time:  39, Time started:  36, Turnaround time:   5, Wait time:   2, Response time:   2]
+[Process: P25, Arrival time:  40, Run time:   3, Priority: 3, End time:  43, Time started:  40, Turnaround time:   3, Wait time:   0, Response time:   0]
+[Process: P21, Arrival time:  46, Run time:   1, Priority: 2, End time:  47, Time started:  46, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process:  P6, Arrival time:  40, Run time:   7, Priority: 3, End time:  51, Time started:  43, Turnaround time:  11, Wait time:   4, Response time:   3]
+[Process: P11, Arrival time:  52, Run time:   1, Priority: 2, End time:  53, Time started:  52, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P26, Arrival time:  52, Run time:   5, Priority: 2, End time:  58, Time started:  53, Turnaround time:   6, Wait time:   1, Response time:   1]
+[Process: P24, Arrival time:  57, Run time:   3, Priority: 2, End time:  61, Time started:  58, Turnaround time:   4, Wait time:   1, Response time:   1]
+[Process: P20, Arrival time:  64, Run time:   3, Priority: 1, End time:  67, Time started:  64, Turnaround time:   3, Wait time:   0, Response time:   0]
+[Process: P19, Arrival time:  11, Run time:   9, Priority: 3, End time:  71, Time started:  39, Turnaround time:  60, Wait time:  51, Response time:  28]
+[Process: P10, Arrival time:  70, Run time:   1, Priority: 1, End time:  72, Time started:  71, Turnaround time:   2, Wait time:   1, Response time:   1]
+[Process:  P8, Arrival time:  75, Run time:   1, Priority: 1, End time:  76, Time started:  75, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P29, Arrival time:  69, Run time:   7, Priority: 2, End time:  80, Time started:  72, Turnaround time:  11, Wait time:   4, Response time:   3]
+[Process: P15, Arrival time:  81, Run time:   5, Priority: 1, End time:  86, Time started:  81, Turnaround time:   5, Wait time:   0, Response time:   0]
+[Process: P13, Arrival time:  87, Run time:   3, Priority: 1, End time:  90, Time started:  87, Turnaround time:   3, Wait time:   0, Response time:   0]
+[Process:  P5, Arrival time:  92, Run time:   2, Priority: 1, End time:  94, Time started:  92, Turnaround time:   2, Wait time:   0, Response time:   0]
+[Process:  P1, Arrival time:  63, Run time:   8, Priority: 3, End time:  98, Time started:  80, Turnaround time:  35, Wait time:  27, Response time:  17]
+[Process: P28, Arrival time:  87, Run time:   7, Priority: 1, End time: 105, Time started:  98, Turnaround time:  18, Wait time:  11, Response time:  11]
+
+
+Averages turnaround time: 9.481481481481481
+Average wait time: 5.407407407407407
+Average response time: 2.8518518518518516
+Throughput: 0.24324324324324326 processes completed per quanta.
+
+[*][P13][P28][P28][P28][P28][P28][P11][P28][P28][P28][P4][P4][P4][P22][P22][P22][P2][P22][P22][P12][P12][P12][P26][P10][P26][P26][P26][P26][P26][P7][P7][P7][P7][P7][P17][P17][P17][P17][P17][P15][P15][P15][P15][P15][P30][P6][P6][P6][P6][P6][P6][P6][P25][P25][P14][P14][P14][P14][P14][P16][P16][P16][P16][P16][P16][P16][P1][P1][P1][P1][P1][P1][P1][P24][P24][P24][P24][P20][P9][P9][P9][P18][P9][P9][P9][P9][P29][P27][P27][P27][P27][P29][P5][P23][P23][P23][P29][P3][P29][P29][P29][P30][P30][P30][P30][P30][P30][P30][P30][P30]
+[Process: P13, Arrival time:   1, Run time:   1, Priority: 2, End time:   2, Time started:   1, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P11, Arrival time:   7, Run time:   1, Priority: 2, End time:   8, Time started:   7, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P28, Arrival time:   1, Run time:   8, Priority: 3, End time:  11, Time started:   2, Turnaround time:  10, Wait time:   2, Response time:   1]
+[Process:  P4, Arrival time:  11, Run time:   3, Priority: 4, End time:  14, Time started:  11, Turnaround time:   3, Wait time:   0, Response time:   0]
+[Process:  P2, Arrival time:  17, Run time:   1, Priority: 4, End time:  18, Time started:  17, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P22, Arrival time:  13, Run time:   5, Priority: 1, End time:  20, Time started:  14, Turnaround time:   7, Wait time:   2, Response time:   1]
+[Process: P12, Arrival time:  18, Run time:   3, Priority: 1, End time:  23, Time started:  20, Turnaround time:   5, Wait time:   2, Response time:   2]
+[Process: P10, Arrival time:  24, Run time:   1, Priority: 1, End time:  25, Time started:  24, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P26, Arrival time:   6, Run time:   6, Priority: 2, End time:  30, Time started:  23, Turnaround time:  24, Wait time:  18, Response time:  17]
+[Process:  P7, Arrival time:  29, Run time:   5, Priority: 3, End time:  35, Time started:  30, Turnaround time:   6, Wait time:   1, Response time:   1]
+[Process: P17, Arrival time:  30, Run time:   5, Priority: 1, End time:  40, Time started:  35, Turnaround time:  10, Wait time:   5, Response time:   5]
+[Process: P15, Arrival time:  36, Run time:   5, Priority: 1, End time:  45, Time started:  40, Turnaround time:   9, Wait time:   4, Response time:   4]
+[Process:  P6, Arrival time:  46, Run time:   7, Priority: 2, End time:  53, Time started:  46, Turnaround time:   7, Wait time:   0, Response time:   0]
+[Process: P25, Arrival time:  53, Run time:   2, Priority: 4, End time:  55, Time started:  53, Turnaround time:   2, Wait time:   0, Response time:   0]
+[Process: P14, Arrival time:  53, Run time:   5, Priority: 4, End time:  60, Time started:  55, Turnaround time:   7, Wait time:   2, Response time:   2]
+[Process: P16, Arrival time:  48, Run time:   7, Priority: 4, End time:  67, Time started:  60, Turnaround time:  19, Wait time:  12, Response time:  12]
+[Process:  P1, Arrival time:  63, Run time:   7, Priority: 2, End time:  74, Time started:  67, Turnaround time:  11, Wait time:   4, Response time:   4]
+[Process: P24, Arrival time:  70, Run time:   4, Priority: 4, End time:  78, Time started:  74, Turnaround time:   8, Wait time:   4, Response time:   4]
+[Process: P20, Arrival time:  77, Run time:   1, Priority: 3, End time:  79, Time started:  78, Turnaround time:   2, Wait time:   1, Response time:   1]
+[Process: P18, Arrival time:  82, Run time:   1, Priority: 3, End time:  83, Time started:  82, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process:  P9, Arrival time:  71, Run time:   7, Priority: 3, End time:  87, Time started:  79, Turnaround time:  16, Wait time:   9, Response time:   8]
+[Process: P27, Arrival time:  88, Run time:   4, Priority: 3, End time:  92, Time started:  88, Turnaround time:   4, Wait time:   0, Response time:   0]
+[Process:  P5, Arrival time:  93, Run time:   1, Priority: 1, End time:  94, Time started:  93, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P23, Arrival time:  94, Run time:   3, Priority: 2, End time:  97, Time started:  94, Turnaround time:   3, Wait time:   0, Response time:   0]
+[Process:  P3, Arrival time:  98, Run time:   1, Priority: 4, End time:  99, Time started:  98, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P29, Arrival time:  82, Run time:   6, Priority: 3, End time: 102, Time started:  87, Turnaround time:  20, Wait time:  14, Response time:   5]
+[Process: P30, Arrival time:  35, Run time:  10, Priority: 1, End time: 111, Time started:  45, Turnaround time:  76, Wait time:  66, Response time:  10]
+
+//- Testing RR.
+Averages turnaround time: 29.615384615384617
+Average wait time: 24.923076923076923
+Average response time: 5.269230769230769
+Throughput: 0.208 processes completed per quanta.
+
+[*][*][*][P28][P28][P13][P28][P28][P28][P11][P26][P11][P26][P11][P26][P11][P26][P1][P16][P11][P26][P1][P16][P11][P12][P1][P16][P11][P12][P1][P21][P10][P11][P12][P1][P21][P19][P11][P1][P21][P19][P30][P1][P15][P21][P19][P30][P1][P15][P5][P20][P21][P19][P30][P1][P15][P5][P3][P18][P20][P19][P30][P14][P25][P5][P18][P20][P23][P30][P4][P14][P25][P18][P20][P2][P23][P30][P4][P14][P25][P18][P9][P24][P20][P2][P23][P30][P4][P14][P7][P22][P25][P18][P9][P20][P2][P29][P23][P30][P14][P7][P25][P9][P20][P29][P23][P30][P7][P25][P9][P29][P23][P7][P25][P9][P29][P23][P7][P25][P9][P29][P23][P25][P9][P23]
+[Process: P13, Arrival time:   4, Run time:   1, Priority: 2, End time:   6, Time started:   5, Turnaround time:   2, Wait time:   1, Response time:   1]
+[Process: P28, Arrival time:   3, Run time:   5, Priority: 3, End time:   9, Time started:   3, Turnaround time:   6, Wait time:   1, Response time:   0]
+[Process: P26, Arrival time:   9, Run time:   5, Priority: 3, End time:  21, Time started:  10, Turnaround time:  12, Wait time:   7, Response time:   1]
+[Process: P16, Arrival time:  15, Run time:   3, Priority: 3, End time:  27, Time started:  18, Turnaround time:  12, Wait time:   9, Response time:   3]
+[Process: P10, Arrival time:  27, Run time:   1, Priority: 2, End time:  32, Time started:  31, Turnaround time:   5, Wait time:   4, Response time:   4]
+[Process: P12, Arrival time:  21, Run time:   3, Priority: 2, End time:  34, Time started:  24, Turnaround time:  13, Wait time:  10, Response time:   3]
+[Process: P11, Arrival time:   9, Run time:   9, Priority: 2, End time:  38, Time started:   9, Turnaround time:  29, Wait time:  20, Response time:   0]
+[Process: P21, Arrival time:  26, Run time:   5, Priority: 2, End time:  52, Time started:  30, Turnaround time:  26, Wait time:  21, Response time:   4]
+[Process:  P1, Arrival time:  15, Run time:   9, Priority: 2, End time:  55, Time started:  17, Turnaround time:  40, Wait time:  31, Response time:   2]
+[Process: P15, Arrival time:  39, Run time:   3, Priority: 1, End time:  56, Time started:  43, Turnaround time:  17, Wait time:  14, Response time:   4]
+[Process:  P3, Arrival time:  50, Run time:   1, Priority: 1, End time:  58, Time started:  57, Turnaround time:   8, Wait time:   7, Response time:   7]
+[Process: P19, Arrival time:  32, Run time:   5, Priority: 2, End time:  61, Time started:  36, Turnaround time:  29, Wait time:  24, Response time:   4]
+[Process:  P5, Arrival time:  44, Run time:   3, Priority: 1, End time:  65, Time started:  49, Turnaround time:  21, Wait time:  18, Response time:   5]
+[Process: P24, Arrival time:  73, Run time:   1, Priority: 4, End time:  83, Time started:  82, Turnaround time:  10, Wait time:   9, Response time:   9]
+[Process:  P4, Arrival time:  62, Run time:   3, Priority: 4, End time:  88, Time started:  69, Turnaround time:  26, Wait time:  23, Response time:   7]
+[Process: P22, Arrival time:  79, Run time:   1, Priority: 4, End time:  91, Time started:  90, Turnaround time:  12, Wait time:  11, Response time:  11]
+[Process: P18, Arrival time:  50, Run time:   5, Priority: 1, End time:  93, Time started:  58, Turnaround time:  43, Wait time:  38, Response time:   8]
+[Process:  P2, Arrival time:  67, Run time:   3, Priority: 4, End time:  96, Time started:  74, Turnaround time:  29, Wait time:  26, Response time:   7]
+[Process: P14, Arrival time:  56, Run time:   5, Priority: 4, End time: 100, Time started:  62, Turnaround time:  44, Wait time:  39, Response time:   6]
+[Process: P20, Arrival time:  44, Run time:   7, Priority: 1, End time: 104, Time started:  50, Turnaround time:  60, Wait time:  53, Response time:   6]
+[Process: P30, Arrival time:  38, Run time:   9, Priority: 1, End time: 107, Time started:  41, Turnaround time:  69, Wait time:  60, Response time:   3]
+[Process:  P7, Arrival time:  79, Run time:   5, Priority: 3, End time: 118, Time started:  89, Turnaround time:  39, Wait time:  34, Response time:  10]
+[Process: P29, Arrival time:  85, Run time:   5, Priority: 3, End time: 121, Time started:  96, Turnaround time:  36, Wait time:  31, Response time:  11]
+[Process: P25, Arrival time:  56, Run time:   9, Priority: 1, End time: 123, Time started:  63, Turnaround time:  67, Wait time:  58, Response time:   7]
+[Process:  P9, Arrival time:  73, Run time:   7, Priority: 4, End time: 124, Time started:  81, Turnaround time:  51, Wait time:  44, Response time:   8]
+[Process: P23, Arrival time:  61, Run time:   9, Priority: 1, End time: 125, Time started:  67, Turnaround time:  64, Wait time:  55, Response time:   6]
+
+
+Averages turnaround time: 49.666666666666664
+Average wait time: 43.791666666666664
+Average response time: 6.875
+Throughput: 0.16326530612244897 processes completed per quanta.
+
+[*][*][*][*][P4][P4][P4][P4][*][*][P11][P26][P11][P26][P11][P26][P11][P24][P26][P9][P11][P24][P9][P11][P1][P9][P11][P1][P9][P11][P29][P1][P10][P9][P29][P1][P10][P8][P19][P9][P29][P1][P10][P8][P19][P15][P30][P9][P29][P1][P10][P8][P19][P13][P28][P15][P30][P9][P29][P1][P18][P10][P3][P8][P19][P13][P28][P30][P14][P29][P18][P10][P12][P23][P3][P8][P28][P30][P2][P21][P14][P18][P10][P12][P23][P17][P3][P8][P28][P30][P2][P21][P7][P22][P14][P18][P10][P12][P23][P17][P3][P8][P28][P30][P21][P7][P22][P14][P18][P10][P12][P23][P17][P3][P8][P28][P30][P21][P7][P22][P18][P10][P23][P17][P3][P30][P21][P7][P22][P18][P23][P17][P3][P21][P22][P23][P17][P3][P21][P22][P23][P3][P22][P3][P22][P22][P22]
+[Process:  P4, Arrival time:   4, Run time:   4, Priority: 2, End time:   8, Time started:   4, Turnaround time:   4, Wait time:   0, Response time:   0]
+[Process: P26, Arrival time:  10, Run time:   4, Priority: 2, End time:  19, Time started:  11, Turnaround time:   9, Wait time:   5, Response time:   1]
+[Process: P24, Arrival time:  15, Run time:   2, Priority: 2, End time:  22, Time started:  17, Turnaround time:   7, Wait time:   5, Response time:   2]
+[Process: P11, Arrival time:  10, Run time:   8, Priority: 1, End time:  30, Time started:  10, Turnaround time:  20, Wait time:  12, Response time:   0]
+[Process: P15, Arrival time:  39, Run time:   2, Priority: 4, End time:  56, Time started:  45, Turnaround time:  17, Wait time:  15, Response time:   6]
+[Process:  P9, Arrival time:  16, Run time:   8, Priority: 1, End time:  58, Time started:  19, Turnaround time:  42, Wait time:  34, Response time:   3]
+[Process:  P1, Arrival time:  21, Run time:   7, Priority: 2, End time:  60, Time started:  24, Turnaround time:  39, Wait time:  32, Response time:   3]
+[Process: P19, Arrival time:  33, Run time:   4, Priority: 1, End time:  65, Time started:  38, Turnaround time:  32, Wait time:  28, Response time:   5]
+[Process: P13, Arrival time:  45, Run time:   2, Priority: 4, End time:  66, Time started:  53, Turnaround time:  21, Wait time:  19, Response time:   8]
+[Process: P29, Arrival time:  27, Run time:   6, Priority: 1, End time:  70, Time started:  30, Turnaround time:  43, Wait time:  37, Response time:   3]
+[Process:  P2, Arrival time:  68, Run time:   2, Priority: 3, End time:  91, Time started:  78, Turnaround time:  23, Wait time:  21, Response time:  10]
+[Process: P14, Arrival time:  57, Run time:   4, Priority: 3, End time: 108, Time started:  68, Turnaround time:  51, Wait time:  47, Response time:  11]
+[Process: P12, Arrival time:  62, Run time:   4, Priority: 3, End time: 111, Time started:  72, Turnaround time:  49, Wait time:  45, Response time:  10]
+[Process:  P8, Arrival time:  33, Run time:   8, Priority: 1, End time: 115, Time started:  37, Turnaround time:  82, Wait time:  74, Response time:   4]
+[Process: P28, Arrival time:  45, Run time:   6, Priority: 4, End time: 116, Time started:  54, Turnaround time:  71, Wait time:  65, Response time:   9]
+[Process: P10, Arrival time:  28, Run time:  10, Priority: 1, End time: 122, Time started:  32, Turnaround time:  94, Wait time:  84, Response time:   4]
+[Process: P30, Arrival time:  39, Run time:   8, Priority: 4, End time: 126, Time started:  46, Turnaround time:  87, Wait time:  79, Response time:   7]
+[Process:  P7, Arrival time:  80, Run time:   4, Priority: 3, End time: 128, Time started:  92, Turnaround time:  48, Wait time:  44, Response time:  12]
+[Process: P18, Arrival time:  50, Run time:   7, Priority: 4, End time: 130, Time started:  60, Turnaround time:  80, Wait time:  73, Response time:  10]
+[Process: P17, Arrival time:  74, Run time:   6, Priority: 3, End time: 137, Time started:  85, Turnaround time:  63, Wait time:  57, Response time:  11]
+[Process: P21, Arrival time:  68, Run time:   7, Priority: 4, End time: 139, Time started:  79, Turnaround time:  71, Wait time:  64, Response time:  11]
+[Process: P23, Arrival time:  62, Run time:   8, Priority: 4, End time: 141, Time started:  73, Turnaround time:  79, Wait time:  71, Response time:  11]
+[Process:  P3, Arrival time:  51, Run time:  10, Priority: 4, End time: 144, Time started:  62, Turnaround time:  93, Wait time:  83, Response time:  11]
+[Process: P22, Arrival time:  80, Run time:  10, Priority: 3, End time: 147, Time started:  93, Turnaround time:  67, Wait time:  57, Response time:  13]
+
+
+Averages turnaround time: 59.84
+Average wait time: 53.6
+Average response time: 8.52
+Throughput: 0.15625 processes completed per quanta.
+
+[*][*][*][*][P23][P23][P4][P23][P4][P23][P4][P23][P4][P19][P23][P4][P19][P23][P4][P9][P24][P19][P23][P9][P24][P1][P19][P7][P22][P23][P9][P1][P19][P7][P18][P29][P22][P23][P9][P1][P19][P7][P8][P27][P18][P29][P9][P1][P6][P19][P7][P8][P27][P18][P28][P29][P13][P9][P1][P6][P19][P7][P11][P26][P8][P27][P18][P28][P29][P3][P9][P1][P6][P19][P7][P11][P12][P26][P8][P27][P18][P28][P21][P29][P10][P3][P6][P2][P17][P11][P12][P26][P8][P30][P18][P15][P28][P21][P29][P3][P6][P2][P17][P11][P12][P26][P8][P30][P18][P15][P28][P21][P3][P6][P2][P17][P11][P26][P8][P30][P18][P15][P28][P21][P3][P6][P2][P17][P11][P26][P8][P30][P18][P21][P3][P6][P2][P17][P11][P8][P30][P21][P3][P2][P11][P30][P21][P3][P2][P11][P30][P21][P3][P2][P30][P3][P2][P30][P2][P30]
+[Process:  P4, Arrival time:   5, Run time:   6, Priority: 1, End time:  19, Time started:   6, Turnaround time:  14, Wait time:   8, Response time:   1]
+[Process: P24, Arrival time:  16, Run time:   2, Priority: 1, End time:  25, Time started:  20, Turnaround time:   9, Wait time:   7, Response time:   4]
+[Process: P22, Arrival time:  22, Run time:   2, Priority: 1, End time:  37, Time started:  28, Turnaround time:  15, Wait time:  13, Response time:   6]
+[Process: P23, Arrival time:   4, Run time:  10, Priority: 1, End time:  38, Time started:   4, Turnaround time:  34, Wait time:  24, Response time:   0]
+[Process: P13, Arrival time:  46, Run time:   1, Priority: 3, End time:  57, Time started:  56, Turnaround time:  11, Wait time:  10, Response time:  10]
+[Process:  P9, Arrival time:  16, Run time:   7, Priority: 4, End time:  71, Time started:  19, Turnaround time:  55, Wait time:  48, Response time:   3]
+[Process:  P1, Arrival time:  21, Run time:   6, Priority: 1, End time:  72, Time started:  25, Turnaround time:  51, Wait time:  45, Response time:   4]
+[Process: P19, Arrival time:  11, Run time:   9, Priority: 4, End time:  74, Time started:  13, Turnaround time:  63, Wait time:  54, Response time:   2]
+[Process:  P7, Arrival time:  22, Run time:   6, Priority: 4, End time:  75, Time started:  27, Turnaround time:  53, Wait time:  47, Response time:   5]
+[Process: P27, Arrival time:  34, Run time:   4, Priority: 4, End time:  80, Time started:  43, Turnaround time:  46, Wait time:  42, Response time:   9]
+[Process: P10, Arrival time:  69, Run time:   1, Priority: 2, End time:  85, Time started:  84, Turnaround time:  16, Wait time:  15, Response time:  15]
+[Process: P29, Arrival time:  28, Run time:   6, Priority: 4, End time:  99, Time started:  35, Turnaround time:  71, Wait time:  65, Response time:   7]
+[Process: P12, Arrival time:  63, Run time:   3, Priority: 2, End time: 105, Time started:  76, Turnaround time:  42, Wait time:  39, Response time:  13]
+[Process: P15, Arrival time:  81, Run time:   3, Priority: 2, End time: 122, Time started:  95, Turnaround time:  41, Wait time:  38, Response time:  14]
+[Process: P28, Arrival time:  45, Run time:   6, Priority: 3, End time: 123, Time started:  54, Turnaround time:  78, Wait time:  72, Response time:   9]
+[Process: P26, Arrival time:  51, Run time:   6, Priority: 3, End time: 130, Time started:  63, Turnaround time:  79, Wait time:  73, Response time:  12]
+[Process: P18, Arrival time:  28, Run time:   9, Priority: 4, End time: 133, Time started:  34, Turnaround time: 105, Wait time:  96, Response time:   6]
+[Process:  P6, Arrival time:  40, Run time:   8, Priority: 4, End time: 136, Time started:  48, Turnaround time:  96, Wait time:  88, Response time:   8]
+[Process: P17, Arrival time:  75, Run time:   5, Priority: 2, End time: 138, Time started:  88, Turnaround time:  63, Wait time:  58, Response time:  13]
+[Process:  P8, Arrival time:  34, Run time:   9, Priority: 4, End time: 140, Time started:  42, Turnaround time: 106, Wait time:  97, Response time:   8]
+[Process: P11, Arrival time:  51, Run time:   9, Priority: 3, End time: 150, Time started:  62, Turnaround time:  99, Wait time:  90, Response time:  11]
+[Process: P21, Arrival time:  68, Run time:   8, Priority: 3, End time: 152, Time started:  82, Turnaround time:  84, Wait time:  76, Response time:  14]
+[Process:  P3, Arrival time:  56, Run time:  10, Priority: 4, End time: 156, Time started:  69, Turnaround time: 100, Wait time:  90, Response time:  13]
+[Process:  P2, Arrival time:  74, Run time:  10, Priority: 3, End time: 159, Time started:  87, Turnaround time:  85, Wait time:  75, Response time:  13]
+[Process: P30, Arrival time:  80, Run time:  10, Priority: 2, End time: 160, Time started:  93, Turnaround time:  80, Wait time:  70, Response time:  13]
+
+
+Averages turnaround time: 42.03703703703704
+Average wait time: 36.51851851851852
+Average response time: 6.703703703703703
+Throughput: 0.18120805369127516 processes completed per quanta.
+
+[P14][P14][P14][P14][P14][P12][P23][P12][P23][P12][P23][P12][P4][P23][P19][P12][P4][P23][P19][P4][P17][P23][P19][P4][P17][P23][P19][P7][P22][P17][P23][P19][P7][P18][P17][P23][P19][P7][P18][P27][P17][P16][P19][P7][P18][P27][P6][P25][P17][P16][P19][P7][P18][P27][P21][P6][P25][P17][P16][P19][P11][P26][P18][P6][P25][P3][P24][P9][P16][P26][P18][P1][P6][P20][P3][P24][P9][P16][P29][P26][P10][P18][P1][P6][P20][P3][P2][P8][P24][P9][P16][P29][P26][P15][P30][P18][P1][P6][P20][P3][P2][P9][P16][P29][P26][P15][P30][P18][P1][P6][P3][P2][P9][P16][P29][P15][P30][P1][P3][P2][P9][P16][P29][P15][P30][P1][P3][P2][P9][P29][P15][P30][P1][P3][P2][P9][P29][P30][P1][P3][P2][P9][P30][P3][P2][P30][P2][P30][P2]
+[Process: P14, Arrival time:   0, Run time:   5, Priority: 4, End time:   5, Time started:   0, Turnaround time:   5, Wait time:   0, Response time:   0]
+[Process: P12, Arrival time:   5, Run time:   5, Priority: 4, End time:  16, Time started:   5, Turnaround time:  11, Wait time:   6, Response time:   0]
+[Process:  P4, Arrival time:  10, Run time:   4, Priority: 1, End time:  24, Time started:  12, Turnaround time:  14, Wait time:  10, Response time:   2]
+[Process: P22, Arrival time:  23, Run time:   1, Priority: 4, End time:  29, Time started:  28, Turnaround time:   6, Wait time:   5, Response time:   5]
+[Process: P23, Arrival time:   5, Run time:   9, Priority: 4, End time:  36, Time started:   6, Turnaround time:  31, Wait time:  22, Response time:   1]
+[Process:  P7, Arrival time:  23, Run time:   5, Priority: 3, End time:  52, Time started:  27, Turnaround time:  29, Wait time:  24, Response time:   4]
+[Process: P27, Arrival time:  34, Run time:   3, Priority: 3, End time:  54, Time started:  39, Turnaround time:  20, Wait time:  17, Response time:   5]
+[Process: P21, Arrival time:  46, Run time:   1, Priority: 2, End time:  55, Time started:  54, Turnaround time:   9, Wait time:   8, Response time:   8]
+[Process: P17, Arrival time:  17, Run time:   7, Priority: 3, End time:  58, Time started:  20, Turnaround time:  41, Wait time:  34, Response time:   3]
+[Process: P19, Arrival time:  11, Run time:   9, Priority: 3, End time:  60, Time started:  14, Turnaround time:  49, Wait time:  40, Response time:   3]
+[Process: P11, Arrival time:  52, Run time:   1, Priority: 2, End time:  61, Time started:  60, Turnaround time:   9, Wait time:   8, Response time:   8]
+[Process: P25, Arrival time:  40, Run time:   3, Priority: 3, End time:  65, Time started:  47, Turnaround time:  25, Wait time:  22, Response time:   7]
+[Process: P10, Arrival time:  70, Run time:   1, Priority: 1, End time:  81, Time started:  80, Turnaround time:  11, Wait time:  10, Response time:  10]
+[Process:  P8, Arrival time:  75, Run time:   1, Priority: 1, End time:  88, Time started:  87, Turnaround time:  13, Wait time:  12, Response time:  12]
+[Process: P24, Arrival time:  57, Run time:   3, Priority: 2, End time:  89, Time started:  66, Turnaround time:  32, Wait time:  29, Response time:   9]
+[Process: P20, Arrival time:  64, Run time:   3, Priority: 1, End time:  99, Time started:  73, Turnaround time:  35, Wait time:  32, Response time:   9]
+[Process: P26, Arrival time:  52, Run time:   5, Priority: 2, End time: 105, Time started:  61, Turnaround time:  53, Wait time:  48, Response time:   9]
+[Process: P18, Arrival time:  29, Run time:   9, Priority: 3, End time: 108, Time started:  33, Turnaround time:  79, Wait time:  70, Response time:   4]
+[Process:  P6, Arrival time:  40, Run time:   7, Priority: 3, End time: 110, Time started:  46, Turnaround time:  70, Wait time:  63, Response time:   6]
+[Process: P16, Arrival time:  35, Run time:   9, Priority: 3, End time: 122, Time started:  41, Turnaround time:  87, Wait time:  78, Response time:   6]
+[Process: P15, Arrival time:  81, Run time:   5, Priority: 1, End time: 131, Time started:  93, Turnaround time:  50, Wait time:  45, Response time:  12]
+[Process: P29, Arrival time:  69, Run time:   7, Priority: 2, End time: 137, Time started:  78, Turnaround time:  68, Wait time:  61, Response time:   9]
+[Process:  P1, Arrival time:  63, Run time:   8, Priority: 3, End time: 139, Time started:  71, Turnaround time:  76, Wait time:  68, Response time:   8]
+[Process:  P9, Arrival time:  58, Run time:   9, Priority: 2, End time: 142, Time started:  67, Turnaround time:  84, Wait time:  75, Response time:   9]
+[Process:  P3, Arrival time:  57, Run time:  10, Priority: 3, End time: 144, Time started:  65, Turnaround time:  87, Wait time:  77, Response time:   8]
+[Process: P30, Arrival time:  81, Run time:   9, Priority: 1, End time: 148, Time started:  94, Turnaround time:  67, Wait time:  58, Response time:  13]
+[Process:  P2, Arrival time:  75, Run time:  10, Priority: 2, End time: 149, Time started:  86, Turnaround time:  74, Wait time:  64, Response time:  11]
+
+
+Averages turnaround time: 25.88888888888889
+Average wait time: 21.0
+Average response time: 4.148148148148148
+Throughput: 0.20300751879699247 processes completed per quanta.
+
+[*][P13][P28][P28][P28][P28][P28][P26][P28][P11][P26][P28][P26][P4][P28][P26][P22][P4][P26][P22][P2][P4][P12][P26][P22][P12][P10][P22][P12][P22][P7][P17][P7][P17][P7][P17][P7][P30][P17][P15][P7][P30][P17][P15][P30][P15][P30][P15][P6][P30][P15][P16][P6][P30][P16][P6][P14][P25][P30][P16][P6][P14][P25][P30][P21][P16][P6][P14][P1][P30][P21][P19][P16][P6][P14][P1][P30][P24][P21][P9][P19][P16][P6][P14][P1][P20][P24][P21][P9][P19][P16][P18][P29][P1][P24][P21][P8][P27][P9][P19][P29][P1][P24][P21][P8][P27][P9][P19][P29][P1][P21][P8][P27][P9][P19][P29][P1][P21][P8][P27][P9][P19][P29][P21][P8][P9][P19][P29][P8][P19][P8][P8][P8]
+[Process: P13, Arrival time:   1, Run time:   1, Priority: 2, End time:   2, Time started:   1, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P11, Arrival time:   7, Run time:   1, Priority: 2, End time:  10, Time started:   9, Turnaround time:   3, Wait time:   2, Response time:   2]
+[Process: P28, Arrival time:   1, Run time:   8, Priority: 3, End time:  15, Time started:   2, Turnaround time:  14, Wait time:   6, Response time:   1]
+[Process:  P2, Arrival time:  17, Run time:   1, Priority: 4, End time:  21, Time started:  20, Turnaround time:   4, Wait time:   3, Response time:   3]
+[Process:  P4, Arrival time:  11, Run time:   3, Priority: 4, End time:  22, Time started:  13, Turnaround time:  11, Wait time:   8, Response time:   2]
+[Process: P26, Arrival time:   6, Run time:   6, Priority: 2, End time:  24, Time started:   7, Turnaround time:  18, Wait time:  12, Response time:   1]
+[Process: P10, Arrival time:  24, Run time:   1, Priority: 1, End time:  27, Time started:  26, Turnaround time:   3, Wait time:   2, Response time:   2]
+[Process: P12, Arrival time:  18, Run time:   3, Priority: 1, End time:  29, Time started:  22, Turnaround time:  11, Wait time:   8, Response time:   4]
+[Process: P22, Arrival time:  13, Run time:   5, Priority: 1, End time:  30, Time started:  16, Turnaround time:  17, Wait time:  12, Response time:   3]
+[Process:  P7, Arrival time:  29, Run time:   5, Priority: 3, End time:  41, Time started:  30, Turnaround time:  12, Wait time:   7, Response time:   1]
+[Process: P17, Arrival time:  30, Run time:   5, Priority: 1, End time:  43, Time started:  31, Turnaround time:  13, Wait time:   8, Response time:   1]
+[Process: P15, Arrival time:  36, Run time:   5, Priority: 1, End time:  51, Time started:  39, Turnaround time:  15, Wait time:  10, Response time:   3]
+[Process: P25, Arrival time:  53, Run time:   2, Priority: 4, End time:  63, Time started:  57, Turnaround time:  10, Wait time:   8, Response time:   4]
+[Process: P30, Arrival time:  35, Run time:  10, Priority: 1, End time:  77, Time started:  37, Turnaround time:  42, Wait time:  32, Response time:   2]
+[Process:  P6, Arrival time:  46, Run time:   7, Priority: 2, End time:  83, Time started:  48, Turnaround time:  37, Wait time:  30, Response time:   2]
+[Process: P14, Arrival time:  53, Run time:   5, Priority: 4, End time:  84, Time started:  56, Turnaround time:  31, Wait time:  26, Response time:   3]
+[Process: P20, Arrival time:  77, Run time:   1, Priority: 3, End time:  86, Time started:  85, Turnaround time:   9, Wait time:   8, Response time:   8]
+[Process: P16, Arrival time:  48, Run time:   7, Priority: 4, End time:  91, Time started:  51, Turnaround time:  43, Wait time:  36, Response time:   3]
+[Process: P18, Arrival time:  82, Run time:   1, Priority: 3, End time:  92, Time started:  91, Turnaround time:  10, Wait time:   9, Response time:   9]
+[Process: P24, Arrival time:  70, Run time:   4, Priority: 4, End time: 103, Time started:  77, Turnaround time:  33, Wait time:  29, Response time:   7]
+[Process:  P1, Arrival time:  63, Run time:   7, Priority: 2, End time: 117, Time started:  68, Turnaround time:  54, Wait time:  47, Response time:   5]
+[Process: P27, Arrival time:  88, Run time:   4, Priority: 3, End time: 120, Time started:  97, Turnaround time:  32, Wait time:  28, Response time:   9]
+[Process: P21, Arrival time:  59, Run time:   9, Priority: 3, End time: 124, Time started:  64, Turnaround time:  65, Wait time:  56, Response time:   5]
+[Process:  P9, Arrival time:  71, Run time:   7, Priority: 3, End time: 126, Time started:  79, Turnaround time:  55, Wait time:  48, Response time:   8]
+[Process: P29, Arrival time:  82, Run time:   6, Priority: 3, End time: 128, Time started:  92, Turnaround time:  46, Wait time:  40, Response time:  10]
+[Process: P19, Arrival time:  65, Run time:   9, Priority: 3, End time: 130, Time started:  71, Turnaround time:  65, Wait time:  56, Response time:   6]
+[Process:  P8, Arrival time:  88, Run time:   9, Priority: 3, End time: 133, Time started:  96, Turnaround time:  45, Wait time:  36, Response time:   8]
+
+//- Testing HPFP.
+Averages turnaround time: 19.647058823529413
+Average wait time: 14.529411764705882
+Average response time: 5.882352941176471
+Throughput: 0.17 processes completed per quanta.
+
+[*][*][*][P28][P13][P28][P28][P28][P28][P11][P11][P11][P11][P11][P11][P11][P1][P11][P1][P11][P1][P1][P12][P1][P12][P1][P12][P1][P21][P10][P1][P21][P1][P21][P19][P21][P19][P21][P30][P30][P15][P30][P15][P30][P15][P30][P5][P20][P30][P5][P20][P30][P5][P3][P18][P20][P30][P18][P20][P25][P30][P18][P20][P25][P23][P18][P20][P25][P23][P18][P20][P25][P23][P25][P23][P25][P23][P25][P23][P25][P23][P25][P23][P23][P19][P19][P19][P26][P16][P7][P29][P26][P16][P7][P29][P8][P27][P26][P16][P7]
+[Process: P13, Arrival time:   4, Run time:   1, Priority: 2, End time:   5, Time started:   4, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P28, Arrival time:   3, Run time:   5, Priority: 3, End time:   9, Time started:   3, Turnaround time:   6, Wait time:   1, Response time:   0]
+[Process: P11, Arrival time:   9, Run time:   9, Priority: 2, End time:  20, Time started:   9, Turnaround time:  11, Wait time:   2, Response time:   0]
+[Process: P12, Arrival time:  21, Run time:   3, Priority: 2, End time:  27, Time started:  22, Turnaround time:   6, Wait time:   3, Response time:   1]
+[Process: P10, Arrival time:  27, Run time:   1, Priority: 2, End time:  30, Time started:  29, Turnaround time:   3, Wait time:   2, Response time:   2]
+[Process:  P1, Arrival time:  15, Run time:   9, Priority: 2, End time:  33, Time started:  16, Turnaround time:  18, Wait time:   9, Response time:   1]
+[Process: P21, Arrival time:  26, Run time:   5, Priority: 2, End time:  38, Time started:  28, Turnaround time:  12, Wait time:   7, Response time:   2]
+[Process: P15, Arrival time:  39, Run time:   3, Priority: 1, End time:  45, Time started:  40, Turnaround time:   6, Wait time:   3, Response time:   1]
+[Process:  P5, Arrival time:  44, Run time:   3, Priority: 1, End time:  53, Time started:  46, Turnaround time:   9, Wait time:   6, Response time:   2]
+[Process:  P3, Arrival time:  50, Run time:   1, Priority: 1, End time:  54, Time started:  53, Turnaround time:   4, Wait time:   3, Response time:   3]
+[Process: P30, Arrival time:  38, Run time:   9, Priority: 1, End time:  61, Time started:  38, Turnaround time:  23, Wait time:  14, Response time:   0]
+[Process: P18, Arrival time:  50, Run time:   5, Priority: 1, End time:  70, Time started:  54, Turnaround time:  20, Wait time:  15, Response time:   4]
+[Process: P20, Arrival time:  44, Run time:   7, Priority: 1, End time:  71, Time started:  47, Turnaround time:  27, Wait time:  20, Response time:   3]
+[Process: P25, Arrival time:  56, Run time:   9, Priority: 1, End time:  82, Time started:  59, Turnaround time:  26, Wait time:  17, Response time:   3]
+[Process: P23, Arrival time:  61, Run time:   9, Priority: 1, End time:  84, Time started:  64, Turnaround time:  23, Wait time:  14, Response time:   3]
+[Process: P19, Arrival time:  32, Run time:   5, Priority: 2, End time:  87, Time started:  34, Turnaround time:  55, Wait time:  50, Response time:   2]
+[Process: P16, Arrival time:  15, Run time:   3, Priority: 3, End time:  99, Time started:  88, Turnaround time:  84, Wait time:  81, Response time:  73]
+
+
+Averages turnaround time: 19.0
+Average wait time: 13.8125
+Average response time: 7.375
+Throughput: 0.16 processes completed per quanta.
+
+[*][*][*][*][P4][P4][P4][P4][*][*][P11][P11][P11][P11][P11][P11][P11][P9][P11][P9][P9][P9][P9][P9][P9][P9][P26][P29][P29][P10][P29][P10][P29][P10][P29][P8][P19][P10][P29][P8][P19][P10][P8][P19][P10][P8][P19][P10][P8][P10][P8][P10][P8][P10][P8][P24][P1][P26][P24][P1][P26][P1][P26][P1][P1][P1][P1][P14][P12][P14][P2][P12][P14][P2][P12][P14][P17][P12][P17][P17][P17][P7][P22][P17][P7][P22][P5][P5][P5][P5][P17][P27][P27][P16][P16][P16][P16][P16][P6][P25]
+[Process:  P4, Arrival time:   4, Run time:   4, Priority: 2, End time:   8, Time started:   4, Turnaround time:   4, Wait time:   0, Response time:   0]
+[Process: P11, Arrival time:  10, Run time:   8, Priority: 1, End time:  19, Time started:  10, Turnaround time:   9, Wait time:   1, Response time:   0]
+[Process:  P9, Arrival time:  16, Run time:   8, Priority: 1, End time:  26, Time started:  17, Turnaround time:  10, Wait time:   2, Response time:   1]
+[Process: P29, Arrival time:  27, Run time:   6, Priority: 1, End time:  39, Time started:  27, Turnaround time:  12, Wait time:   6, Response time:   0]
+[Process: P19, Arrival time:  33, Run time:   4, Priority: 1, End time:  47, Time started:  36, Turnaround time:  14, Wait time:  10, Response time:   3]
+[Process: P10, Arrival time:  28, Run time:  10, Priority: 1, End time:  54, Time started:  29, Turnaround time:  26, Wait time:  16, Response time:   1]
+[Process:  P8, Arrival time:  33, Run time:   8, Priority: 1, End time:  55, Time started:  35, Turnaround time:  22, Wait time:  14, Response time:   2]
+[Process: P24, Arrival time:  15, Run time:   2, Priority: 2, End time:  59, Time started:  55, Turnaround time:  44, Wait time:  42, Response time:  40]
+[Process: P26, Arrival time:  10, Run time:   4, Priority: 2, End time:  63, Time started:  26, Turnaround time:  53, Wait time:  49, Response time:  16]
+[Process:  P1, Arrival time:  21, Run time:   7, Priority: 2, End time:  67, Time started:  56, Turnaround time:  46, Wait time:  39, Response time:  35]
+[Process:  P2, Arrival time:  68, Run time:   2, Priority: 3, End time:  74, Time started:  70, Turnaround time:   6, Wait time:   4, Response time:   2]
+[Process: P14, Arrival time:  57, Run time:   4, Priority: 3, End time:  76, Time started:  67, Turnaround time:  19, Wait time:  15, Response time:  10]
+[Process: P12, Arrival time:  62, Run time:   4, Priority: 3, End time:  78, Time started:  68, Turnaround time:  16, Wait time:  12, Response time:   6]
+[Process:  P5, Arrival time:  86, Run time:   4, Priority: 2, End time:  90, Time started:  86, Turnaround time:   4, Wait time:   0, Response time:   0]
+[Process: P17, Arrival time:  74, Run time:   6, Priority: 3, End time:  91, Time started:  76, Turnaround time:  17, Wait time:  11, Response time:   2]
+[Process: P27, Arrival time:  91, Run time:   2, Priority: 2, End time:  93, Time started:  91, Turnaround time:   2, Wait time:   0, Response time:   0]
+
+
+Averages turnaround time: 8.285714285714286
+Average wait time: 3.5
+Average response time: 0.7142857142857143
+Throughput: 0.14 processes completed per quanta.
+
+[*][*][*][*][P23][P23][P4][P23][P4][P23][P4][P23][P4][P23][P4][P23][P4][P23][P24][P23][P24][P23][P1][P22][P1][P22][P1][P1][P1][P1][P19][P9][P7][P18][P29][P19][P9][P7][P18][P8][P27][P29][P19][P9][P7][P28][P28][P13][P28][P28][P28][P28][P11][P26][P11][P26][P11][P26][P11][P26][P11][P26][P11][P12][P12][P12][P26][P11][P11][P10][P21][P11][P21][P21][P21][P17][P17][P17][P17][P17][P30][P30][P15][P30][P15][P30][P15][P30][P5][P20][P30][P5][P16][P16][P16][P16][P16][P16][P16][P14]
+[Process:  P4, Arrival time:   5, Run time:   6, Priority: 1, End time:  17, Time started:   6, Turnaround time:  12, Wait time:   6, Response time:   1]
+[Process: P24, Arrival time:  16, Run time:   2, Priority: 1, End time:  21, Time started:  18, Turnaround time:   5, Wait time:   3, Response time:   2]
+[Process: P23, Arrival time:   4, Run time:  10, Priority: 1, End time:  22, Time started:   4, Turnaround time:  18, Wait time:   8, Response time:   0]
+[Process: P22, Arrival time:  22, Run time:   2, Priority: 1, End time:  26, Time started:  23, Turnaround time:   4, Wait time:   2, Response time:   1]
+[Process:  P1, Arrival time:  21, Run time:   6, Priority: 1, End time:  30, Time started:  22, Turnaround time:   9, Wait time:   3, Response time:   1]
+[Process: P13, Arrival time:  46, Run time:   1, Priority: 3, End time:  48, Time started:  47, Turnaround time:   2, Wait time:   1, Response time:   1]
+[Process: P28, Arrival time:  45, Run time:   6, Priority: 3, End time:  52, Time started:  45, Turnaround time:   7, Wait time:   1, Response time:   0]
+[Process: P12, Arrival time:  63, Run time:   3, Priority: 2, End time:  66, Time started:  63, Turnaround time:   3, Wait time:   0, Response time:   0]
+[Process: P26, Arrival time:  51, Run time:   6, Priority: 3, End time:  67, Time started:  53, Turnaround time:  16, Wait time:  10, Response time:   2]
+[Process: P10, Arrival time:  69, Run time:   1, Priority: 2, End time:  70, Time started:  69, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P11, Arrival time:  51, Run time:   9, Priority: 3, End time:  72, Time started:  52, Turnaround time:  21, Wait time:  12, Response time:   1]
+[Process: P17, Arrival time:  75, Run time:   5, Priority: 2, End time:  80, Time started:  75, Turnaround time:   5, Wait time:   0, Response time:   0]
+[Process: P15, Arrival time:  81, Run time:   3, Priority: 2, End time:  87, Time started:  82, Turnaround time:   6, Wait time:   3, Response time:   1]
+[Process: P16, Arrival time:  92, Run time:   7, Priority: 1, End time:  99, Time started:  92, Turnaround time:   7, Wait time:   0, Response time:   0]
+
+
+Averages turnaround time: 8.294117647058824
+Average wait time: 4.352941176470588
+Average response time: 0.9411764705882353
+Throughput: 0.17 processes completed per quanta.
+
+[P14][P14][P14][P14][P14][P12][P23][P12][P23][P12][P4][P4][P4][P4][P19][P19][P19][P19][P17][P19][P17][P19][P17][P19][P17][P7][P19][P17][P7][P19][P17][P7][P18][P17][P7][P18][P27][P7][P16][P18][P27][P16][P18][P6][P25][P27][P21][P16][P18][P6][P25][P16][P11][P26][P26][P26][P26][P26][P24][P9][P24][P9][P24][P9][P20][P20][P20][P9][P9][P9][P10][P29][P9][P29][P9][P8][P29][P9][P2][P29][P2][P15][P30][P15][P30][P15][P30][P15][P30][P13][P28][P15][P30][P13][P28][P5][P30][P13][P28][P5]
+[Process: P14, Arrival time:   0, Run time:   5, Priority: 4, End time:   5, Time started:   0, Turnaround time:   5, Wait time:   0, Response time:   0]
+[Process:  P4, Arrival time:  10, Run time:   4, Priority: 1, End time:  14, Time started:  10, Turnaround time:   4, Wait time:   0, Response time:   0]
+[Process: P19, Arrival time:  11, Run time:   9, Priority: 3, End time:  30, Time started:  14, Turnaround time:  19, Wait time:  10, Response time:   3]
+[Process: P17, Arrival time:  17, Run time:   7, Priority: 3, End time:  34, Time started:  18, Turnaround time:  17, Wait time:  10, Response time:   1]
+[Process:  P7, Arrival time:  23, Run time:   5, Priority: 3, End time:  38, Time started:  25, Turnaround time:  15, Wait time:  10, Response time:   2]
+[Process: P27, Arrival time:  34, Run time:   3, Priority: 3, End time:  46, Time started:  36, Turnaround time:  12, Wait time:   9, Response time:   2]
+[Process: P21, Arrival time:  46, Run time:   1, Priority: 2, End time:  47, Time started:  46, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P11, Arrival time:  52, Run time:   1, Priority: 2, End time:  53, Time started:  52, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P26, Arrival time:  52, Run time:   5, Priority: 2, End time:  58, Time started:  53, Turnaround time:   6, Wait time:   1, Response time:   1]
+[Process: P24, Arrival time:  57, Run time:   3, Priority: 2, End time:  63, Time started:  58, Turnaround time:   6, Wait time:   3, Response time:   1]
+[Process: P20, Arrival time:  64, Run time:   3, Priority: 1, End time:  67, Time started:  64, Turnaround time:   3, Wait time:   0, Response time:   0]
+[Process: P10, Arrival time:  70, Run time:   1, Priority: 1, End time:  71, Time started:  70, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process:  P8, Arrival time:  75, Run time:   1, Priority: 1, End time:  76, Time started:  75, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process:  P9, Arrival time:  58, Run time:   9, Priority: 2, End time:  78, Time started:  59, Turnaround time:  20, Wait time:  11, Response time:   1]
+[Process: P15, Arrival time:  81, Run time:   5, Priority: 1, End time:  92, Time started:  81, Turnaround time:  11, Wait time:   6, Response time:   0]
+[Process: P13, Arrival time:  87, Run time:   3, Priority: 1, End time:  98, Time started:  89, Turnaround time:  11, Wait time:   8, Response time:   2]
+[Process:  P5, Arrival time:  92, Run time:   2, Priority: 1, End time: 100, Time started:  95, Turnaround time:   8, Wait time:   6, Response time:   3]
+
+
+Averages turnaround time: 9.526315789473685
+Average wait time: 5.315789473684211
+Average response time: 1.263157894736842
+Throughput: 0.19 processes completed per quanta.
+
+[*][P13][P28][P28][P28][P28][P26][P26][P11][P26][P26][P26][P26][P22][P22][P22][P22][P22][P12][P12][P12][P28][P28][P28][P10][P28][P4][P2][P4][P7][P17][P17][P17][P17][P17][P30][P30][P15][P30][P15][P30][P15][P30][P15][P30][P15][P30][P30][P30][P30][P6][P6][P6][P6][P6][P6][P6][P7][P7][P7][P21][P7][P21][P1][P1][P1][P1][P1][P1][P1][P21][P19][P21][P9][P19][P21][P9][P19][P21][P9][P20][P19][P21][P9][P19][P18][P29][P21][P9][P19][P29][P21][P8][P5][P23][P23][P23][P27][P9][P19]
+[Process: P13, Arrival time:   1, Run time:   1, Priority: 2, End time:   2, Time started:   1, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P11, Arrival time:   7, Run time:   1, Priority: 2, End time:   9, Time started:   8, Turnaround time:   2, Wait time:   1, Response time:   1]
+[Process: P26, Arrival time:   6, Run time:   6, Priority: 2, End time:  13, Time started:   6, Turnaround time:   7, Wait time:   1, Response time:   0]
+[Process: P22, Arrival time:  13, Run time:   5, Priority: 1, End time:  18, Time started:  13, Turnaround time:   5, Wait time:   0, Response time:   0]
+[Process: P12, Arrival time:  18, Run time:   3, Priority: 1, End time:  21, Time started:  18, Turnaround time:   3, Wait time:   0, Response time:   0]
+[Process: P10, Arrival time:  24, Run time:   1, Priority: 1, End time:  25, Time started:  24, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P28, Arrival time:   1, Run time:   8, Priority: 3, End time:  26, Time started:   2, Turnaround time:  25, Wait time:  17, Response time:   1]
+[Process:  P2, Arrival time:  17, Run time:   1, Priority: 4, End time:  28, Time started:  27, Turnaround time:  11, Wait time:  10, Response time:  10]
+[Process: P17, Arrival time:  30, Run time:   5, Priority: 1, End time:  35, Time started:  30, Turnaround time:   5, Wait time:   0, Response time:   0]
+[Process: P15, Arrival time:  36, Run time:   5, Priority: 1, End time:  46, Time started:  37, Turnaround time:  10, Wait time:   5, Response time:   1]
+[Process: P30, Arrival time:  35, Run time:  10, Priority: 1, End time:  50, Time started:  35, Turnaround time:  15, Wait time:   5, Response time:   0]
+[Process:  P6, Arrival time:  46, Run time:   7, Priority: 2, End time:  57, Time started:  50, Turnaround time:  11, Wait time:   4, Response time:   4]
+[Process:  P7, Arrival time:  29, Run time:   5, Priority: 3, End time:  62, Time started:  29, Turnaround time:  33, Wait time:  28, Response time:   0]
+[Process:  P1, Arrival time:  63, Run time:   7, Priority: 2, End time:  70, Time started:  63, Turnaround time:   7, Wait time:   0, Response time:   0]
+[Process: P20, Arrival time:  77, Run time:   1, Priority: 3, End time:  81, Time started:  80, Turnaround time:   4, Wait time:   3, Response time:   3]
+[Process: P18, Arrival time:  82, Run time:   1, Priority: 3, End time:  86, Time started:  85, Turnaround time:   4, Wait time:   3, Response time:   3]
+[Process: P21, Arrival time:  59, Run time:   9, Priority: 3, End time:  92, Time started:  60, Turnaround time:  33, Wait time:  24, Response time:   1]
+[Process:  P5, Arrival time:  93, Run time:   1, Priority: 1, End time:  94, Time started:  93, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P23, Arrival time:  94, Run time:   3, Priority: 2, End time:  97, Time started:  94, Turnaround time:   3, Wait time:   0, Response time:   0]
+
+//- Testing HPFNP.
+Averages turnaround time: 20.473684210526315
+Average wait time: 15.368421052631579
+Average response time: 15.368421052631579
+Throughput: 0.19 processes completed per quanta.
+
+[*][*][*][P28][P28][P28][P28][P28][P13][P11][P11][P11][P11][P11][P11][P11][P11][P11][P1][P1][P1][P1][P1][P1][P1][P1][P1][P12][P12][P12][P21][P21][P21][P21][P21][P10][P19][P19][P19][P19][P19][P30][P30][P30][P30][P30][P30][P30][P30][P30][P15][P15][P15][P5][P5][P5][P20][P20][P20][P20][P20][P20][P20][P3][P18][P18][P18][P18][P18][P25][P25][P25][P25][P25][P25][P25][P25][P25][P23][P23][P23][P23][P23][P23][P23][P23][P23][P26][P26][P26][P26][P26][P16][P16][P16][P7][P7][P7][P7][P7]
+[Process: P28, Arrival time:   3, Run time:   5, Priority: 3, End time:   8, Time started:   3, Turnaround time:   5, Wait time:   0, Response time:   0]
+[Process: P13, Arrival time:   4, Run time:   1, Priority: 2, End time:   9, Time started:   8, Turnaround time:   5, Wait time:   4, Response time:   4]
+[Process: P11, Arrival time:   9, Run time:   9, Priority: 2, End time:  18, Time started:   9, Turnaround time:   9, Wait time:   0, Response time:   0]
+[Process:  P1, Arrival time:  15, Run time:   9, Priority: 2, End time:  27, Time started:  18, Turnaround time:  12, Wait time:   3, Response time:   3]
+[Process: P12, Arrival time:  21, Run time:   3, Priority: 2, End time:  30, Time started:  27, Turnaround time:   9, Wait time:   6, Response time:   6]
+[Process: P21, Arrival time:  26, Run time:   5, Priority: 2, End time:  35, Time started:  30, Turnaround time:   9, Wait time:   4, Response time:   4]
+[Process: P10, Arrival time:  27, Run time:   1, Priority: 2, End time:  36, Time started:  35, Turnaround time:   9, Wait time:   8, Response time:   8]
+[Process: P19, Arrival time:  32, Run time:   5, Priority: 2, End time:  41, Time started:  36, Turnaround time:   9, Wait time:   4, Response time:   4]
+[Process: P30, Arrival time:  38, Run time:   9, Priority: 1, End time:  50, Time started:  41, Turnaround time:  12, Wait time:   3, Response time:   3]
+[Process: P15, Arrival time:  39, Run time:   3, Priority: 1, End time:  53, Time started:  50, Turnaround time:  14, Wait time:  11, Response time:  11]
+[Process:  P5, Arrival time:  44, Run time:   3, Priority: 1, End time:  56, Time started:  53, Turnaround time:  12, Wait time:   9, Response time:   9]
+[Process: P20, Arrival time:  44, Run time:   7, Priority: 1, End time:  63, Time started:  56, Turnaround time:  19, Wait time:  12, Response time:  12]
+[Process:  P3, Arrival time:  50, Run time:   1, Priority: 1, End time:  64, Time started:  63, Turnaround time:  14, Wait time:  13, Response time:  13]
+[Process: P18, Arrival time:  50, Run time:   5, Priority: 1, End time:  69, Time started:  64, Turnaround time:  19, Wait time:  14, Response time:  14]
+[Process: P25, Arrival time:  56, Run time:   9, Priority: 1, End time:  78, Time started:  69, Turnaround time:  22, Wait time:  13, Response time:  13]
+[Process: P23, Arrival time:  61, Run time:   9, Priority: 1, End time:  87, Time started:  78, Turnaround time:  26, Wait time:  17, Response time:  17]
+[Process: P26, Arrival time:   9, Run time:   5, Priority: 3, End time:  92, Time started:  87, Turnaround time:  83, Wait time:  78, Response time:  78]
+[Process: P16, Arrival time:  15, Run time:   3, Priority: 3, End time:  95, Time started:  92, Turnaround time:  80, Wait time:  77, Response time:  77]
+[Process:  P7, Arrival time:  79, Run time:   5, Priority: 3, End time: 100, Time started:  95, Turnaround time:  21, Wait time:  16, Response time:  16]
+
+
+Averages turnaround time: 15.222222222222221
+Average wait time: 9.944444444444445
+Average response time: 9.944444444444445
+Throughput: 0.1782178217821782 processes completed per quanta.
+
+[*][*][*][*][P4][P4][P4][P4][*][*][P11][P11][P11][P11][P11][P11][P11][P11][P9][P9][P9][P9][P9][P9][P9][P9][P26][P26][P26][P26][P29][P29][P29][P29][P29][P29][P10][P10][P10][P10][P10][P10][P10][P10][P10][P10][P8][P8][P8][P8][P8][P8][P8][P8][P19][P19][P19][P19][P24][P24][P1][P1][P1][P1][P1][P1][P1][P14][P14][P14][P14][P12][P12][P12][P12][P2][P2][P17][P17][P17][P17][P17][P17][P7][P7][P7][P7][P5][P5][P5][P5][P27][P27][P16][P16][P16][P16][P16][P16][P16][P16]
+[Process:  P4, Arrival time:   4, Run time:   4, Priority: 2, End time:   8, Time started:   4, Turnaround time:   4, Wait time:   0, Response time:   0]
+[Process: P11, Arrival time:  10, Run time:   8, Priority: 1, End time:  18, Time started:  10, Turnaround time:   8, Wait time:   0, Response time:   0]
+[Process:  P9, Arrival time:  16, Run time:   8, Priority: 1, End time:  26, Time started:  18, Turnaround time:  10, Wait time:   2, Response time:   2]
+[Process: P26, Arrival time:  10, Run time:   4, Priority: 2, End time:  30, Time started:  26, Turnaround time:  20, Wait time:  16, Response time:  16]
+[Process: P29, Arrival time:  27, Run time:   6, Priority: 1, End time:  36, Time started:  30, Turnaround time:   9, Wait time:   3, Response time:   3]
+[Process: P10, Arrival time:  28, Run time:  10, Priority: 1, End time:  46, Time started:  36, Turnaround time:  18, Wait time:   8, Response time:   8]
+[Process:  P8, Arrival time:  33, Run time:   8, Priority: 1, End time:  54, Time started:  46, Turnaround time:  21, Wait time:  13, Response time:  13]
+[Process: P19, Arrival time:  33, Run time:   4, Priority: 1, End time:  58, Time started:  54, Turnaround time:  25, Wait time:  21, Response time:  21]
+[Process: P24, Arrival time:  15, Run time:   2, Priority: 2, End time:  60, Time started:  58, Turnaround time:  45, Wait time:  43, Response time:  43]
+[Process:  P1, Arrival time:  21, Run time:   7, Priority: 2, End time:  67, Time started:  60, Turnaround time:  46, Wait time:  39, Response time:  39]
+[Process: P14, Arrival time:  57, Run time:   4, Priority: 3, End time:  71, Time started:  67, Turnaround time:  14, Wait time:  10, Response time:  10]
+[Process: P12, Arrival time:  62, Run time:   4, Priority: 3, End time:  75, Time started:  71, Turnaround time:  13, Wait time:   9, Response time:   9]
+[Process:  P2, Arrival time:  68, Run time:   2, Priority: 3, End time:  77, Time started:  75, Turnaround time:   9, Wait time:   7, Response time:   7]
+[Process: P17, Arrival time:  74, Run time:   6, Priority: 3, End time:  83, Time started:  77, Turnaround time:   9, Wait time:   3, Response time:   3]
+[Process:  P7, Arrival time:  80, Run time:   4, Priority: 3, End time:  87, Time started:  83, Turnaround time:   7, Wait time:   3, Response time:   3]
+[Process:  P5, Arrival time:  86, Run time:   4, Priority: 2, End time:  91, Time started:  87, Turnaround time:   5, Wait time:   1, Response time:   1]
+[Process: P27, Arrival time:  91, Run time:   2, Priority: 2, End time:  93, Time started:  91, Turnaround time:   2, Wait time:   0, Response time:   0]
+[Process: P16, Arrival time:  92, Run time:   8, Priority: 2, End time: 101, Time started:  93, Turnaround time:   9, Wait time:   1, Response time:   1]
+
+
+Averages turnaround time: 12.0
+Average wait time: 6.235294117647059
+Average response time: 6.235294117647059
+Throughput: 0.16666666666666666 processes completed per quanta.
+
+[*][*][*][*][P23][P23][P23][P23][P23][P23][P23][P23][P23][P23][P4][P4][P4][P4][P4][P4][P24][P24][P1][P1][P1][P1][P1][P1][P22][P22][P19][P19][P19][P19][P19][P19][P19][P19][P19][P9][P9][P9][P9][P9][P9][P9][P28][P28][P28][P28][P28][P28][P13][P11][P11][P11][P11][P11][P11][P11][P11][P11][P26][P26][P26][P26][P26][P26][P12][P12][P12][P10][P21][P21][P21][P21][P21][P21][P21][P21][P17][P17][P17][P17][P17][P30][P30][P30][P30][P30][P30][P30][P30][P30][P30][P16][P16][P16][P16][P16][P16][P16]
+[Process: P23, Arrival time:   4, Run time:  10, Priority: 1, End time:  14, Time started:   4, Turnaround time:  10, Wait time:   0, Response time:   0]
+[Process:  P4, Arrival time:   5, Run time:   6, Priority: 1, End time:  20, Time started:  14, Turnaround time:  15, Wait time:   9, Response time:   9]
+[Process: P24, Arrival time:  16, Run time:   2, Priority: 1, End time:  22, Time started:  20, Turnaround time:   6, Wait time:   4, Response time:   4]
+[Process:  P1, Arrival time:  21, Run time:   6, Priority: 1, End time:  28, Time started:  22, Turnaround time:   7, Wait time:   1, Response time:   1]
+[Process: P22, Arrival time:  22, Run time:   2, Priority: 1, End time:  30, Time started:  28, Turnaround time:   8, Wait time:   6, Response time:   6]
+[Process: P19, Arrival time:  11, Run time:   9, Priority: 4, End time:  39, Time started:  30, Turnaround time:  28, Wait time:  19, Response time:  19]
+[Process:  P9, Arrival time:  16, Run time:   7, Priority: 4, End time:  46, Time started:  39, Turnaround time:  30, Wait time:  23, Response time:  23]
+[Process: P28, Arrival time:  45, Run time:   6, Priority: 3, End time:  52, Time started:  46, Turnaround time:   7, Wait time:   1, Response time:   1]
+[Process: P13, Arrival time:  46, Run time:   1, Priority: 3, End time:  53, Time started:  52, Turnaround time:   7, Wait time:   6, Response time:   6]
+[Process: P11, Arrival time:  51, Run time:   9, Priority: 3, End time:  62, Time started:  53, Turnaround time:  11, Wait time:   2, Response time:   2]
+[Process: P26, Arrival time:  51, Run time:   6, Priority: 3, End time:  68, Time started:  62, Turnaround time:  17, Wait time:  11, Response time:  11]
+[Process: P12, Arrival time:  63, Run time:   3, Priority: 2, End time:  71, Time started:  68, Turnaround time:   8, Wait time:   5, Response time:   5]
+[Process: P10, Arrival time:  69, Run time:   1, Priority: 2, End time:  72, Time started:  71, Turnaround time:   3, Wait time:   2, Response time:   2]
+[Process: P21, Arrival time:  68, Run time:   8, Priority: 3, End time:  80, Time started:  72, Turnaround time:  12, Wait time:   4, Response time:   4]
+[Process: P17, Arrival time:  75, Run time:   5, Priority: 2, End time:  85, Time started:  80, Turnaround time:  10, Wait time:   5, Response time:   5]
+[Process: P30, Arrival time:  80, Run time:  10, Priority: 2, End time:  95, Time started:  85, Turnaround time:  15, Wait time:   5, Response time:   5]
+[Process: P16, Arrival time:  92, Run time:   7, Priority: 1, End time: 102, Time started:  95, Turnaround time:  10, Wait time:   3, Response time:   3]
+
+
+Averages turnaround time: 10.85
+Average wait time: 5.8
+Average response time: 5.8
+Throughput: 0.19801980198019803 processes completed per quanta.
+
+[P14][P14][P14][P14][P14][P12][P12][P12][P12][P12][P4][P4][P4][P4][P19][P19][P19][P19][P19][P19][P19][P19][P19][P17][P17][P17][P17][P17][P17][P17][P7][P7][P7][P7][P7][P18][P18][P18][P18][P18][P18][P18][P18][P18][P27][P27][P27][P21][P16][P16][P16][P16][P16][P16][P16][P16][P16][P11][P26][P26][P26][P26][P26][P24][P24][P24][P20][P20][P20][P9][P9][P9][P9][P9][P9][P9][P9][P9][P10][P8][P29][P29][P29][P29][P29][P29][P29][P15][P15][P15][P15][P15][P30][P30][P30][P30][P30][P30][P30][P30][P30]
+[Process: P14, Arrival time:   0, Run time:   5, Priority: 4, End time:   5, Time started:   0, Turnaround time:   5, Wait time:   0, Response time:   0]
+[Process: P12, Arrival time:   5, Run time:   5, Priority: 4, End time:  10, Time started:   5, Turnaround time:   5, Wait time:   0, Response time:   0]
+[Process:  P4, Arrival time:  10, Run time:   4, Priority: 1, End time:  14, Time started:  10, Turnaround time:   4, Wait time:   0, Response time:   0]
+[Process: P19, Arrival time:  11, Run time:   9, Priority: 3, End time:  23, Time started:  14, Turnaround time:  12, Wait time:   3, Response time:   3]
+[Process: P17, Arrival time:  17, Run time:   7, Priority: 3, End time:  30, Time started:  23, Turnaround time:  13, Wait time:   6, Response time:   6]
+[Process:  P7, Arrival time:  23, Run time:   5, Priority: 3, End time:  35, Time started:  30, Turnaround time:  12, Wait time:   7, Response time:   7]
+[Process: P18, Arrival time:  29, Run time:   9, Priority: 3, End time:  44, Time started:  35, Turnaround time:  15, Wait time:   6, Response time:   6]
+[Process: P27, Arrival time:  34, Run time:   3, Priority: 3, End time:  47, Time started:  44, Turnaround time:  13, Wait time:  10, Response time:  10]
+[Process: P21, Arrival time:  46, Run time:   1, Priority: 2, End time:  48, Time started:  47, Turnaround time:   2, Wait time:   1, Response time:   1]
+[Process: P16, Arrival time:  35, Run time:   9, Priority: 3, End time:  57, Time started:  48, Turnaround time:  22, Wait time:  13, Response time:  13]
+[Process: P11, Arrival time:  52, Run time:   1, Priority: 2, End time:  58, Time started:  57, Turnaround time:   6, Wait time:   5, Response time:   5]
+[Process: P26, Arrival time:  52, Run time:   5, Priority: 2, End time:  63, Time started:  58, Turnaround time:  11, Wait time:   6, Response time:   6]
+[Process: P24, Arrival time:  57, Run time:   3, Priority: 2, End time:  66, Time started:  63, Turnaround time:   9, Wait time:   6, Response time:   6]
+[Process: P20, Arrival time:  64, Run time:   3, Priority: 1, End time:  69, Time started:  66, Turnaround time:   5, Wait time:   2, Response time:   2]
+[Process:  P9, Arrival time:  58, Run time:   9, Priority: 2, End time:  78, Time started:  69, Turnaround time:  20, Wait time:  11, Response time:  11]
+[Process: P10, Arrival time:  70, Run time:   1, Priority: 1, End time:  79, Time started:  78, Turnaround time:   9, Wait time:   8, Response time:   8]
+[Process:  P8, Arrival time:  75, Run time:   1, Priority: 1, End time:  80, Time started:  79, Turnaround time:   5, Wait time:   4, Response time:   4]
+[Process: P29, Arrival time:  69, Run time:   7, Priority: 2, End time:  87, Time started:  80, Turnaround time:  18, Wait time:  11, Response time:  11]
+[Process: P15, Arrival time:  81, Run time:   5, Priority: 1, End time:  92, Time started:  87, Turnaround time:  11, Wait time:   6, Response time:   6]
+[Process: P30, Arrival time:  81, Run time:   9, Priority: 1, End time: 101, Time started:  92, Turnaround time:  20, Wait time:  11, Response time:  11]
+
+
+Averages turnaround time: 12.090909090909092
+Average wait time: 7.363636363636363
+Average response time: 7.363636363636363
+Throughput: 0.20952380952380953 processes completed per quanta.
+
+[*][P13][P28][P28][P28][P28][P28][P28][P28][P28][P26][P26][P26][P26][P26][P26][P22][P22][P22][P22][P22][P12][P12][P12][P10][P11][P4][P4][P4][P7][P7][P7][P7][P7][P17][P17][P17][P17][P17][P30][P30][P30][P30][P30][P30][P30][P30][P30][P30][P15][P15][P15][P15][P15][P6][P6][P6][P6][P6][P6][P6][P21][P21][P21][P21][P21][P21][P21][P21][P21][P1][P1][P1][P1][P1][P1][P1][P19][P19][P19][P19][P19][P19][P19][P19][P19][P9][P9][P9][P9][P9][P9][P9][P5][P23][P23][P23][P20][P18][P29][P29][P29][P29][P29][P29]
+[Process: P13, Arrival time:   1, Run time:   1, Priority: 2, End time:   2, Time started:   1, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P28, Arrival time:   1, Run time:   8, Priority: 3, End time:  10, Time started:   2, Turnaround time:   9, Wait time:   1, Response time:   1]
+[Process: P26, Arrival time:   6, Run time:   6, Priority: 2, End time:  16, Time started:  10, Turnaround time:  10, Wait time:   4, Response time:   4]
+[Process: P22, Arrival time:  13, Run time:   5, Priority: 1, End time:  21, Time started:  16, Turnaround time:   8, Wait time:   3, Response time:   3]
+[Process: P12, Arrival time:  18, Run time:   3, Priority: 1, End time:  24, Time started:  21, Turnaround time:   6, Wait time:   3, Response time:   3]
+[Process: P10, Arrival time:  24, Run time:   1, Priority: 1, End time:  25, Time started:  24, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P11, Arrival time:   7, Run time:   1, Priority: 2, End time:  26, Time started:  25, Turnaround time:  19, Wait time:  18, Response time:  18]
+[Process:  P4, Arrival time:  11, Run time:   3, Priority: 4, End time:  29, Time started:  26, Turnaround time:  18, Wait time:  15, Response time:  15]
+[Process:  P7, Arrival time:  29, Run time:   5, Priority: 3, End time:  34, Time started:  29, Turnaround time:   5, Wait time:   0, Response time:   0]
+[Process: P17, Arrival time:  30, Run time:   5, Priority: 1, End time:  39, Time started:  34, Turnaround time:   9, Wait time:   4, Response time:   4]
+[Process: P30, Arrival time:  35, Run time:  10, Priority: 1, End time:  49, Time started:  39, Turnaround time:  14, Wait time:   4, Response time:   4]
+[Process: P15, Arrival time:  36, Run time:   5, Priority: 1, End time:  54, Time started:  49, Turnaround time:  18, Wait time:  13, Response time:  13]
+[Process:  P6, Arrival time:  46, Run time:   7, Priority: 2, End time:  61, Time started:  54, Turnaround time:  15, Wait time:   8, Response time:   8]
+[Process: P21, Arrival time:  59, Run time:   9, Priority: 3, End time:  70, Time started:  61, Turnaround time:  11, Wait time:   2, Response time:   2]
+[Process:  P1, Arrival time:  63, Run time:   7, Priority: 2, End time:  77, Time started:  70, Turnaround time:  14, Wait time:   7, Response time:   7]
+[Process: P19, Arrival time:  65, Run time:   9, Priority: 3, End time:  86, Time started:  77, Turnaround time:  21, Wait time:  12, Response time:  12]
+[Process:  P9, Arrival time:  71, Run time:   7, Priority: 3, End time:  93, Time started:  86, Turnaround time:  22, Wait time:  15, Response time:  15]
+[Process:  P5, Arrival time:  93, Run time:   1, Priority: 1, End time:  94, Time started:  93, Turnaround time:   1, Wait time:   0, Response time:   0]
+[Process: P23, Arrival time:  94, Run time:   3, Priority: 2, End time:  97, Time started:  94, Turnaround time:   3, Wait time:   0, Response time:   0]
+[Process: P20, Arrival time:  77, Run time:   1, Priority: 3, End time:  98, Time started:  97, Turnaround time:  21, Wait time:  20, Response time:  20]
+[Process: P18, Arrival time:  82, Run time:   1, Priority: 3, End time:  99, Time started:  98, Turnaround time:  17, Wait time:  16, Response time:  16]
+[Process: P29, Arrival time:  82, Run time:   6, Priority: 3, End time: 105, Time started:  99, Turnaround time:  23, Wait time:  17, Response time:  17]
+
